@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"  lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<title>It Don&#39;t Mean a Thing | Election Plots</title>
+
+<meta property='og:title' content='It Don&#39;t Mean a Thing - Election Plots'>
+<meta property='og:description' content='Looking at the change in the Labour vote share in relation to the age demographics of constituencies and the Leave vote percentage.'>
+<meta property='og:url' content='http://localhost/post/it-dont-mean-a-thing/'>
+<meta property='og:site_name' content='Election Plots'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://www.gravatar.com/avatar/3ee15557a9c48ca13f98e04d4f5784b8?s=256'><meta property='article:section' content='Post'><meta property='article:tag' content='UK'><meta property='article:tag' content='GE'><meta property='article:tag' content='2019'><meta property='article:tag' content='age'><meta property='article:tag' content='Brexit'><meta property='article:tag' content='vote share'><meta property='article:tag' content='Merseyside'><meta property='article:published_time' content='2020-01-23T12:09:19Z'/><meta property='article:modified_time' content='2020-01-23T12:09:19Z'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@ElectionPlots'><meta name='twitter:creator' content='@ElectionPlots'>
+
+
+<link href="http://localhost/index.xml" rel="alternate" type="application/rss+xml" title="Election Plots" />
+
+<link rel="stylesheet" href="/css/style.css"/>
+<link rel="stylesheet" href="/css/custom.css"/><link rel='stylesheet' href='http://localhost/css/custom.css'><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="canonical" href="http://localhost/post/it-dont-mean-a-thing/">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+</head>
+<body>
+<section class="section">
+  <div class="container">
+    <nav id="nav-main" class="nav">
+      <div id="nav-name" class="nav-left">
+        <a id="nav-anchor" class="nav-item" href="http://localhost">
+          <h1 id="nav-heading" class="title is-4">Election Plots</h1>
+        </a>
+      </div>
+      <div class="nav-right">
+        <nav id="nav-items" class="nav-item level is-mobile"><a class="level-item" aria-label="github" href='https://github.com/ElectionPlots/data'
+            target='_blank' rel='noopener'>
+            <span class="icon">
+              <i class><svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+    
+  </svg></i>
+            </span>
+          </a><a class="level-item" aria-label="twitter" href='https://twitter.com/ElectionPlots'
+            target='_blank' rel='noopener'>
+            <span class="icon">
+              <i class><svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+    
+  </svg></i>
+            </span>
+          </a><a class="level-item" aria-label="email" href='mailto:electionplots@gmail.com'
+            target='_blank' rel='noopener'>
+            <span class="icon">
+              <i class><svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+    <polyline points="22,6 12,13 2,6"/>
+    
+  </svg></i>
+            </span>
+          </a></nav>
+      </div>
+    </nav>
+
+    <nav class="nav">
+      
+      <div class="nav-left"></div>
+      
+
+      
+      <div class="nav-right"><a class="nav-item" href="/post/welcome">
+          <h2 class="title is-5">About</h2>
+        </a></div>
+      
+    </nav>
+
+  </div>
+  <script src="/js/navicon-shift.js"></script>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="subtitle tags is-6 is-pulled-right">
+      
+      
+<a class="subtitle is-6" href="/tags/uk">#UK</a>
+
+
+
+  
+  | <a class="subtitle is-6" href="/tags/ge">#GE</a>
+  
+  | <a class="subtitle is-6" href="/tags/2019">#2019</a>
+  
+  | <a class="subtitle is-6" href="/tags/age">#age</a>
+  
+  | <a class="subtitle is-6" href="/tags/brexit">#Brexit</a>
+  
+  | <a class="subtitle is-6" href="/tags/vote-share">#vote share</a>
+  
+  | <a class="subtitle is-6" href="/tags/merseyside">#Merseyside</a>
+  
+
+      
+    </div>
+    <h2 class="subtitle is-6">January 23, 2020</h2>
+    <h1 class="title">It Don&#39;t Mean a Thing</h1>
+    
+    <div class="content">
+      <p>I mentioned in a <a href="http://localhost/post/mean-age-daydream/">previous post</a> that there was an element missing from the graphs presented so far, and that missing element is the change in vote share for the parties compared with the last election. My interest here is what happened to the Labour vote in relation to both age demographics and the EU referendum vote in each constituency. This graph shows the change in the Labour vote in relation to mean (average) age in each seat. To make it meaningful, it only includes seats won by either Labour or Conservative.</p>
+<p><img src="/plot_ge_meanage_vs_lc.png" alt="Vote by mean age and Labour vote share change">
+<a href="../../code/plot_ge_meanage_vs_lc" class="graphButton">Code</a>
+  <a href="https://github.com/ElectionPlots/data" class="graphButton">Data</a></p>
+<p>Plotting a trendline, we can see that there is a trend towards a drop in Labour vote share as the average age rises, but for no obvious reason, this doesn't seem to apply once the average age gets above 52.</p>
+<p><img src="/plot_ge_meanage_vs_lc_trendline.png" alt="Vote by mean age and Labour vote share change">
+<a href="../../code/plot_ge_meanage_vs_lc_trendline" class="graphButton">Code</a>
+  <a href="https://github.com/ElectionPlots/data" class="graphButton">Data</a></p>
+<p>Plotting leave vote by Labour vote share change:</p>
+<p><img src="/plot_ge_eu_vs_lc_trendline.png" alt="Vote by leave vote and Labour vote share change">
+<a href="../../code/plot_ge_eu_vs_lc_trendline" class="graphButton">Code</a>
+  <a href="https://github.com/ElectionPlots/data" class="graphButton">Data</a></p>
+<p>Here we can see that the decrease in Labour vote is more marked; this is indicated by the steeper trendline. Looking at the distribution of the seats, irrespective of who won, we can see that the correlation is consistent for the entire leave vote spectrum. So, contrary to what was suggested by previous graphs, does this mean that Brexit was actually a more significant factor than age?</p>
+<p>But what of our <a href="http://localhost/post/the-plot-thickens/">three outliers from Merseyside</a>? We can drill down to the constituency level and locate them:</p>
+<p><html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>
+        
+                <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>    
+            <div id="642de26e-5123-4f2f-9c7e-f96c74c5a548" class="plotly-graph-div" style="height:100%; width:100%;"></div>
+            <script type="text/javascript">
+                
+                    window.PLOTLYENV=window.PLOTLYENV || {};
+                    
+                if (document.getElementById("642de26e-5123-4f2f-9c7e-f96c74c5a548")) {
+                    Plotly.newPlot(
+                        '642de26e-5123-4f2f-9c7e-f96c74c5a548',
+                        [{"customdata": [["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["SPE"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["LAB"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"], ["CON"]], "hoverlabel": {"namelength": 0}, "hovertemplate": "<b>%{hovertext}</b><br><br>Result=CON HOLD<br>Mean age of electorate=%{x}<br>LAB vote share change %=%{y}<br>Last election=%{customdata[0]}", "hovertext": ["Aldershot", "Aldridge-Brownhills", "Altrincham & Sale West", "Amber Valley", "Arundel & South Downs", "Ashford", "Aylesbury", "Banbury", "Basildon & Billericay", "Basingstoke", "Beaconsfield", "Beckenham", "Berwick-upon-Tweed", "Beverley & Holderness", "Bexhill & Battle", "Bexleyheath & Crayford", "Blackpool North & Cleveleys", "Bognor Regis & Littlehampton", "Bolton West", "Boston & Skegness", "Bosworth", "Bournemouth East", "Bournemouth West", "Bracknell", "Braintree", "Brentwood & Ongar", "Bridgwater & Somerset West", "Brigg & Goole", "Broadland", "Bromley & Chislehurst", "Bromsgrove", "Broxbourne", "Broxtowe", "Buckingham", "Burton", "Bury St Edmunds", "Calder Valley", "Camborne & Redruth", "Cannock Chase", "Carlisle", "Castle Point", "Devon Central", "Suffolk Central & Ipswich North", "Charnwood", "Chatham & Aylesford", "Cheadle", "Chelmsford", "Chelsea & Fulham", "Cheltenham", "Chesham & Amersham", "Chichester", "Chingford & Woodford Green", "Chippenham", "Chipping Barnet", "Christchurch", "Cities of London & Westminster", "Clacton", "Cleethorpes", "Colchester", "Congleton", "Copeland", "Corby", "Crawley", "Croydon South", "Dartford", "Daventry", "Derbyshire Dales", "Devizes", "Dover", "Dudley South", "Devon East", "Hampshire East", "Surrey East", "Worthing East & Shoreham", "Yorkshire East", "Eastleigh", "Eddisbury", "Elmet & Rothwell", "Epping Forest", "Epsom & Ewell", "Erewash", "Esher & Walton", "Fareham", "Faversham & Mid Kent", "Filton & Bradley Stoke", "Finchley & Golders Green", "Folkestone & Hythe", "Forest of Dean", "Fylde", "Gainsborough", "Gillingham & Rainham", "Gloucester", "Gosport", "Grantham & Stamford", "Gravesham", "Great Yarmouth", "Guildford", "Halesowen & Rowley Regis", "Haltemprice & Howden", "Harborough", "Harlow", "Harrogate & Knaresborough", "Harrow East", "Harwich & Essex North", "Hastings & Rye", "Havant", "Hazel Grove", "Hemel Hempstead", "Hendon", "Henley", "Hereford & Herefordshire South", "Hertford & Stortford", "Hertsmere", "Hexham", "Hitchin & Harpenden", "Hornchurch & Upminster", "Horsham", "Huntingdon", "Isle of Wight", "Kenilworth & Southam", "Kettering", "Kingswood", "Lewes", "Lichfield", "Loughborough", "Louth & Horncastle", "Ludlow", "Macclesfield", "Maidenhead", "Maidstone & The Weald", "Maldon", "Mansfield", "Meon Valley", "Meriden", "Bedfordshire Mid", "Derbyshire Mid", "Dorset Mid & Poole North", "Norfolk Mid", "Sussex Mid", "Worcestershire Mid", "Middlesbrough South & Cleveland East", "Milton Keynes North", "Milton Keynes South", "Mole Valley", "Morecambe & Lunesdale", "Morley & Outwood", "New Forest East", "New Forest West", "Newark", "Newbury", "Newton Abbot", "Cornwall North", "Devon North", "Dorset North", "Bedfordshire North East", "Cambridgeshire North East", "Derbyshire North East", "Hampshire North East", "Hertfordshire North East", "Somerset North East", "Herefordshire North", "Shropshire North", "Somerset North", "Swindon North", "Thanet North", "Warwickshire North", "Cambridgeshire North West", "Hampshire North West", "Leicestershire North West", "Norfolk North West", "Wiltshire North", "Northampton North", "Northampton South", "Norwich North", "Nuneaton", "Old Bexley & Sidcup", "Orpington", "Pendle", "Penrith & The Border", "Peterborough", "Plymouth Moor View", "Poole", "Portsmouth North", "Pudsey", "Rayleigh & Wickford", "Reading West", "Redditch", "Reigate", "Ribble Valley", "Richmond (Yorks)", "Rochester & Strood", "Rochford & Southend East", "Romford", "Romsey & Southampton North", "Rossendale & Darwen", "Rugby", "Ruislip, Northwood & Pinner", "Runnymede & Weybridge", "Rushcliffe", "Rutland & Melton", "Saffron Walden", "Salisbury", "Scarborough & Whitby", "Selby & Ainsty", "Sevenoaks", "Sherwood", "Shipley", "Shrewsbury & Atcham", "Sittingbourne & Sheppey", "Skipton & Ripon", "Sleaford & North Hykeham", "Solihull", "Somerton & Frome", "Basildon South & Thurrock East", "Cambridgeshire South", "Derbyshire South", "Dorset South", "Cambridgeshire South East", "Cornwall South East", "South Holland & The Deepings", "Leicestershire South", "Norfolk South", "Northamptonshire South", "South Ribble", "Staffordshire South", "Suffolk South", "Swindon South", "Thanet South", "Bedfordshire South West", "Devon South West", "Hertfordshire South West", "Norfolk South West", "Surrey South West", "Wiltshire South West", "Southampton Itchen", "Southend West", "Southport", "Spelthorne", "St Austell & Newquay", "St Ives", "Stafford", "Staffordshire Moorlands", "Stevenage", "Stoke-on-Trent South", "Stone", "Stourbridge", "Stratford-on-Avon", "Suffolk Coastal", "Surrey Heath", "Sutton & Cheam", "Sutton Coldfield", "Tamworth", "Tatton", "Taunton Deane", "Telford", "Tewkesbury", "Cotswolds, The", "Wrekin, The", "Thirsk & Malton", "Thornbury & Yate", "Thurrock", "Tiverton & Honiton", "Tonbridge & Malling", "Torbay", "Devon West & Torridge", "Totnes", "Truro & Falmouth", "Tunbridge Wells", "Uxbridge & Ruislip South", "Walsall North", "Wantage", "Watford", "Waveney", "Wealden", "Wellingborough", "Wells", "Welwyn Hatfield", "Dorset West", "Suffolk West", "Worcestershire West", "Weston-Super-Mare", "Wimbledon", "Winchester", "Windsor", "Witham", "Witney", "Woking", "Wokingham", "Worcester", "Worthing West", "Wycombe", "Wyre & Preston North", "Wyre Forest", "Yeovil", "York Outer", "Banff & Buchan", "Berwickshire, Roxburgh & Selkirk", "Dumfries & Galloway", "Dumfriesshire, Clydesdale & Tweeddale", "Moray", "Aberdeenshire West & Kincardine", "Monmouth", "Aberconwy", "Clwyd West", "Montgomeryshire", "Preseli Pembrokeshire", "Carmarthen West & Pembrokeshire South", "Brecon & Radnorshire", "Vale of Glamorgan"], "legendgroup": "Result=CON HOLD", "marker": {"color": "blue", "symbol": "circle"}, "mode": "markers", "name": "Result=CON HOLD", "showlegend": true, "type": "scatter", "x": [47.307, 52.058, 50.736, 50.872, 55.023, 50.006, 47.782, 49.102, 48.857, 47.185, 52.38, 50.308, 54.231, 54.008, 55.572, 48.229, 52.055, 52.805, 50.125, 51.816, 51.154, 48.445, 46.606, 48.09, 50.905, 51.168, 52.842, 51.985, 53.496, 48.628, 51.999, 49.419, 49.823, 51.729, 49.392, 51.584, 51.107, 51.0, 49.484, 50.282, 52.502, 53.787, 52.985, 50.989, 47.511, 52.173, 48.268, 45.531, 48.287, 52.575, 53.521, 48.802, 51.666, 48.899, 57.233, 44.126, 55.961, 52.304, 44.903, 53.277, 52.227, 49.36, 46.695, 49.276, 47.649, 51.44, 54.414, 49.443, 51.672, 50.142, 54.13, 52.515, 50.892, 51.623, 54.573, 49.5, 52.612, 52.274, 49.671, 50.754, 49.681, 51.026, 51.535, 51.156, 46.305, 46.546, 52.545, 52.676, 54.008, 52.883, 48.119, 47.886, 50.859, 51.654, 49.0, 52.02, 45.612, 49.942, 53.54, 50.949, 48.35, 52.603, 48.033, 51.794, 51.285, 51.706, 52.784, 48.299, 45.07, 52.853, 50.952, 49.363, 49.887, 54.428, 50.576, 49.798, 50.69, 49.834, 54.133, 52.181, 49.608, 49.386, 54.2, 52.307, 44.765, 55.402, 55.096, 52.896, 50.732, 49.451, 52.639, 49.717, 52.8, 50.476, 49.96, 52.482, 53.521, 52.909, 50.855, 52.455, 51.582, 46.962, 47.394, 52.932, 51.985, 49.11, 53.056, 56.912, 51.786, 50.176, 53.582, 53.51, 53.13, 53.76, 50.201, 51.224, 52.513, 51.289, 51.087, 50.992, 54.099, 51.861, 53.402, 48.85, 52.367, 50.78, 49.031, 50.886, 50.277, 53.234, 51.742, 48.251, 46.012, 49.785, 49.179, 49.548, 51.411, 49.42, 53.967, 47.205, 49.847, 51.391, 48.089, 49.405, 51.479, 48.011, 49.469, 49.772, 51.92, 52.217, 47.88, 49.078, 48.011, 49.153, 49.719, 49.856, 51.155, 47.55, 50.795, 52.644, 51.17, 52.241, 53.367, 51.061, 51.48, 50.704, 51.315, 51.402, 49.3, 54.222, 52.844, 51.57, 53.682, 48.716, 50.724, 49.444, 53.397, 50.557, 54.054, 52.398, 50.491, 52.666, 50.115, 51.605, 52.119, 53.816, 47.817, 52.162, 49.027, 52.969, 50.687, 52.121, 51.829, 51.858, 44.241, 50.912, 53.495, 49.928, 52.173, 54.069, 50.341, 52.934, 48.21, 49.506, 53.277, 50.76, 53.715, 55.297, 50.533, 48.532, 51.752, 49.929, 53.071, 51.909, 47.709, 51.683, 53.673, 49.351, 54.072, 51.715, 45.63, 54.344, 50.739, 52.965, 54.623, 55.63, 50.468, 50.48, 44.35, 47.918, 49.722, 47.189, 52.969, 53.125, 49.936, 53.476, 45.117, 56.189, 49.115, 54.994, 51.618, 46.311, 50.337, 49.823, 51.406, 51.396, 49.379, 48.98, 47.187, 54.486, 47.541, 53.397, 52.308, 51.902, 51.099, 50.389, 53.068, 52.926, 53.388, 50.964, 50.508, 53.715, 53.935, 54.245, 53.267, 52.754, 52.994, 54.778, 50.469], "xaxis": "x", "y": [-8.1, -9.5, -2.0, -11.6, -6.9, -7.7, -4.7, -6.5, -10.3, -7.7, -11.5, -4.3, -2.9, -9.3, -5.2, -6.0, -9.0, -5.3, -8.8, -9.7, -6.7, -2.8, -4.9, -8.0, -8.9, -6.7, -8.8, -12.2, -8.5, -4.7, -10.5, -5.7, -6.8, 12.0, -6.9, -8.9, -3.2, -8.3, -12.1, -8.1, -8.5, -2.2, -8.6, -7.8, -9.9, -6.8, -11.8, -10.0, -4.6, -7.7, -7.6, 1.9, -8.5, -3.1, -7.2, -11.2, -9.9, -12.6, -2.5, -7.6, -5.1, -6.5, -8.3, -4.4, -5.8, -5.5, -7.2, -5.6, -7.3, -10.9, -6.9, -5.9, -5.4, -2.3, -9.2, -7.2, -11.6, -9.7, -5.8, -7.8, -8.3, -15.2, -7.1, -6.5, -3.3, -19.6, -4.5, -7.1, -8.1, -7.3, -7.7, -5.0, -8.7, -7.2, -7.1, -10.9, -11.3, -8.1, -9.5, -5.6, -7.3, -10.5, -8.1, -8.0, -4.1, -7.3, -8.0, -8.8, -4.9, -10.4, -2.2, -5.1, -6.9, -2.5, -15.7, -6.0, -6.8, -8.9, 1.3, -7.6, -10.2, -6.1, -5.3, -8.1, -4.0, -9.2, -9.2, -4.2, -5.4, -3.8, -8.9, -13.7, -8.0, -5.6, -6.8, -7.9, -6.4, -7.9, -7.1, -6.2, -13.0, -4.9, -5.7, -8.7, -5.8, -11.7, -5.0, -6.5, -6.2, -6.8, -4.5, -3.3, -3.5, -6.6, -6.7, -8.6, -11.0, -7.6, -4.7, -10.5, -5.6, -9.0, -2.0, -8.6, -7.3, -12.1, -8.3, -7.6, -8.5, -9.0, -7.1, -6.0, -4.3, -6.3, -9.8, -5.8, -6.9, -5.9, -4.5, -6.7, -9.3, -8.7, -6.7, -4.4, -8.2, -3.1, -9.1, -5.2, -6.9, -7.0, -8.9, -4.9, -5.1, -7.7, -7.5, -7.2, -6.5, -5.3, -3.2, -6.3, -7.6, -7.5, -6.7, -9.6, -7.3, -11.7, -3.3, -5.0, -10.6, -9.2, -7.6, -1.9, -4.3, -10.3, -15.6, -9.4, -8.4, -11.4, -2.4, -7.2, -6.3, -7.0, -6.4, -4.3, -8.7, -8.4, -4.3, -3.8, -8.2, -7.7, -13.9, -9.7, -4.7, -5.7, -5.5, -5.9, 6.4, -8.8, -2.5, -7.3, -9.3, -6.9, -8.2, -13.7, -4.7, -7.7, -10.6, -9.2, -11.8, -6.3, -8.4, -11.1, -6.2, -8.0, -13.0, -6.6, -6.3, -11.0, -7.5, -4.0, -4.5, -7.6, -7.8, -5.2, -4.5, -9.9, 0.7, -11.7, -2.4, -11.7, -11.7, -4.2, -9.9, -6.8, -7.6, -4.7, -5.2, -8.9, -7.5, -7.2, -6.0, -11.9, -5.9, -7.7, -8.6, -6.4, -7.5, -14.7, -5.7, -4.6, -0.2, -7.0, -9.5, -6.1, -5.4, -5.3, -3.9, -11.7, -8.1, -6.0, -6.5, -4.4, -2.9, -5.6, 0.4, -4.2, -5.2, -8.2, -0.1], "yaxis": "y"}, {"customdata": [["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LD"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LD"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LD"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"]], "hoverlabel": {"namelength": 0}, "hovertemplate": "<b>%{hovertext}</b><br><br>Result=CON GAIN<br>Mean age of electorate=%{x}<br>LAB vote share change %=%{y}<br>Last election=%{customdata[0]}", "hovertext": ["Ashfield", "Barrow & Furness", "Bassetlaw", "Birmingham Northfield", "Bishop Auckland", "Blackpool South", "Blyth Valley", "Bolsover", "Bolton North East", "Burnley", "Bury North", "Bury South", "Carshalton & Wallington", "Colne Valley", "Crewe & Nantwich", "Darlington", "Derby North", "Dewsbury", "Don Valley", "Dudley North", "Eastbourne", "Gedling", "Great Grimsby", "Heywood & Middleton", "High Peak", "Hyndburn", "Ipswich", "Keighley", "Kensington", "Leigh", "Lincoln", "Newcastle-under-Lyme", "Norfolk North", "Durham North West", "Penistone & Stocksbridge", "Redcar", "Rother Valley", "Scunthorpe", "Sedgefield", "Stockton South", "Stoke-on-Trent Central", "Stoke-on-Trent North", "Stroud", "Wakefield", "Warrington South", "West Bromwich East", "West Bromwich West", "Wolverhampton North East", "Wolverhampton South West", "Workington", "Ynys Mon", "Delyn", "Wrexham", "Vale of Clwyd", "Clwyd South", "Bridgend"], "legendgroup": "Result=CON GAIN", "marker": {"color": "aqua", "symbol": "circle"}, "mode": "markers", "name": "Result=CON GAIN", "showlegend": true, "type": "scatter", "x": [50.17, 51.597, 51.221, 47.968, 51.399, 49.832, 50.818, 50.332, 48.555, 49.339, 49.64, 48.921, 47.667, 50.412, 49.76, 50.079, 46.797, 48.918, 50.811, 49.211, 52.797, 50.077, 48.608, 49.147, 50.978, 49.056, 47.302, 50.785, 46.473, 49.295, 44.51, 47.675, 56.77, 51.302, 52.399, 50.791, 51.1, 49.283, 51.47, 49.206, 45.608, 48.629, 51.848, 49.177, 49.762, 48.028, 46.937, 47.529, 48.514, 52.193, 53.227, 52.009, 50.009, 51.998, 50.593, 50.475], "xaxis": "x", "y": [-18.1, -8.2, -24.9, -10.7, -12.1, -12.0, -15.0, -16.0, -6.1, -9.9, -7.6, -10.2, -6.1, -7.7, -9.7, -10.1, -8.7, -7.3, -17.8, -14.9, -1.2, -7.8, -16.7, -11.6, -4.9, -11.8, -8.1, -2.6, -4.3, -15.1, -6.9, -12.3, -2.3, -13.3, -12.5, -18.1, -16.0, -15.3, -17.1, -7.4, -8.2, -14.3, -4.9, -9.9, -6.1, -15.7, -12.5, -13.0, -5.1, -11.9, -11.8, -10.8, -9.9, -8.7, -9.4, -10.3], "yaxis": "y"}, {"customdata": [["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"], ["LAB"]], "hoverlabel": {"namelength": 0}, "hovertemplate": "<b>%{hovertext}</b><br><br>Result=LAB HOLD<br>Mean age of electorate=%{x}<br>LAB vote share change %=%{y}<br>Last election=%{customdata[0]}", "hovertext": ["Ashton-under-Lyne", "Barking", "Barnsley Central", "Barnsley East", "Batley & Spen", "Battersea", "Bedford", "Bermondsey & Old Southwark", "Bethnal Green & Bow", "Birkenhead", "Birmingham Edgbaston", "Birmingham Erdington", "Birmingham Hall Green", "Birmingham Hodge Hill", "Birmingham Ladywood", "Birmingham Perry Barr", "Birmingham Selly Oak", "Birmingham Yardley", "Blackburn", "Blackley & Broughton", "Blaydon", "Bolton South East", "Bootle", "Bradford East", "Bradford South", "Bradford West", "Brent Central", "Brent North", "Brentford & Isleworth", "Brighton Kemptown", "Bristol East", "Bristol North West", "Bristol South", "Bristol West", "Camberwell & Peckham", "Cambridge", "Canterbury", "Chesterfield", "Chester, City of", "Durham, City of", "Coventry North East", "Coventry North West", "Coventry South", "Croydon Central", "Croydon North", "Dagenham & Rainham", "Denton & Reddish", "Derby South", "Doncaster Central", "Doncaster North", "Dulwich & West Norwood", "Ealing Central & Acton", "Ealing North", "Ealing Southall", "Easington", "East Ham", "Edmonton", "Ellesmere Port & Neston", "Eltham", "Enfield North", "Enfield Southgate", "Erith & Thamesmead", "Exeter", "Feltham & Heston", "Garston & Halewood", "Gateshead", "Greenwich & Woolwich", "Hackney North & Stoke Newington", "Hackney South & Shoreditch", "Halifax", "Halton", "Hammersmith", "Hampstead & Kilburn", "Harrow West", "Hartlepool", "Hayes & Harlington", "Hemsworth", "Holborn & St Pancras", "Hornsey & Wood Green", "Houghton & Sunderland South", "Hove", "Huddersfield", "Ilford North", "Ilford South", "Islington North", "Islington South & Finsbury", "Jarrow", "Hull East", "Hull North", "Hull West & Hessle", "Knowsley", "Lancaster & Fleetwood", "Leeds Central", "Leeds East", "Leeds North East", "Leeds North West", "Leeds West", "Leicester East", "Leicester South", "Leicester West", "Lewisham East", "Lewisham West & Penge", "Lewisham Deptford", "Leyton & Wanstead", "Liverpool Riverside", "Liverpool Walton", "Liverpool Wavertree", "Liverpool West Derby", "Luton North", "Luton South", "Makerfield", "Manchester Central", "Manchester Gorton", "Manchester Withington", "Middlesbrough", "Mitcham & Morden", "Newcastle upon Tyne Central", "Newcastle upon Tyne East", "Newcastle upon Tyne North", "Normanton, Pontefract & Castleford", "Durham North", "Tyneside North", "Norwich South", "Nottingham East", "Nottingham North", "Nottingham South", "Oldham East & Saddleworth", "Oldham West & Royton", "Oxford East", "Plymouth Sutton & Devonport", "Poplar & Limehouse", "Portsmouth South", "Preston", "Reading East", "Rochdale", "Rotherham", "Salford & Eccles", "Sefton Central", "Sheffield Central", "Sheffield South East", "Sheffield Brightside & Hillsborough", "Sheffield Hallam", "Sheffield Heeley", "Slough", "South Shields", "Southampton Test", "St Helens North", "St Helens South & Whiston", "Stalybridge & Hyde", "Stockport", "Stockton North", "Streatham", "Stretford & Urmston", "Sunderland Central", "Tooting", "Tottenham", "Tynemouth", "Vauxhall", "Wallasey", "Walsall South", "Walthamstow", "Wansbeck", "Warley", "Warrington North", "Warwick & Leamington", "Washington & Sunderland West", "Weaver Vale", "Wentworth & Dearne", "West Ham", "Lancashire West", "Westminster North", "Wigan", "Wirral South", "Wirral West", "Wolverhampton South East", "Worsley & Eccles South", "Wythenshawe & Sale East", "York Central", "Edinburgh South", "Alyn & Deeside", "Llanelli", "Gower", "Swansea West", "Swansea East", "Aberavon", "Cardiff Central", "Cardiff North", "Rhondda", "Torfaen", "Newport East", "Newport West", "Neath", "Cynon Valley", "Merthyr Tydfil & Rhymney", "Blaenau Gwent", "Ogmore", "Pontypridd", "Caerphilly", "Islwyn", "Cardiff West", "Cardiff South & Penarth"], "legendgroup": "Result=LAB HOLD", "marker": {"color": "red", "symbol": "circle"}, "mode": "markers", "name": "Result=LAB HOLD", "showlegend": true, "type": "scatter", "x": [48.485, 43.011, 49.065, 49.588, 48.613, 40.9, 48.056, 39.937, 38.83, 48.91, 43.689, 46.009, 44.198, 43.084, 37.999, 44.766, 42.807, 45.86, 46.097, 43.977, 51.739, 46.993, 48.886, 44.648, 47.484, 42.958, 44.104, 46.278, 45.412, 46.381, 45.726, 47.006, 45.344, 36.858, 42.846, 41.568, 45.243, 50.57, 48.77, 45.463, 44.208, 45.904, 40.891, 46.726, 45.408, 46.627, 48.978, 45.951, 48.255, 49.763, 43.897, 44.666, 46.882, 46.743, 50.026, 41.947, 45.206, 51.148, 47.268, 46.396, 47.586, 45.001, 43.281, 45.182, 49.94, 46.67, 41.744, 41.609, 40.744, 48.427, 49.157, 43.012, 44.643, 46.255, 49.775, 44.378, 50.248, 42.015, 44.908, 50.422, 46.608, 46.031, 46.654, 43.704, 41.136, 39.47, 50.55, 48.118, 43.641, 47.238, 48.582, 46.159, 37.693, 46.925, 47.872, 43.153, 44.497, 46.485, 40.292, 42.89, 45.331, 44.998, 41.09, 43.411, 37.603, 47.167, 45.385, 48.059, 47.795, 43.969, 49.978, 36.213, 39.717, 41.258, 45.306, 45.48, 42.366, 39.196, 50.232, 49.17, 50.77, 49.533, 43.663, 39.965, 46.654, 38.633, 48.372, 46.935, 40.282, 43.369, 39.3, 41.154, 42.92, 43.772, 46.972, 48.333, 43.508, 54.592, 35.882, 49.199, 46.498, 48.83, 48.607, 44.795, 50.059, 42.426, 50.206, 49.876, 48.953, 47.461, 49.151, 41.623, 48.463, 48.303, 41.93, 42.621, 51.377, 40.064, 50.065, 46.564, 43.195, 51.648, 46.143, 49.451, 46.491, 49.686, 50.761, 49.923, 40.155, 49.692, 44.448, 49.389, 53.026, 54.024, 47.871, 48.171, 47.247, 42.369, 46.597, 49.538, 51.041, 52.125, 44.974, 47.561, 49.466, 37.963, 48.198, 49.575, 49.596, 48.234, 49.186, 50.928, 49.186, 49.152, 49.689, 49.329, 48.591, 49.355, 49.749, 47.479, 45.665], "xaxis": "x", "y": [-12.3, -6.6, -23.8, -21.9, -12.8, -0.4, -3.5, 0.9, 0.9, -17.8, -5.2, -7.7, -9.8, -2.4, -3.5, -5.0, -6.9, -2.3, -4.8, -8.6, -12.8, -7.7, -4.6, -2.4, -8.2, 11.5, -8.4, -11.0, -7.2, -6.8, -7.6, -1.7, -9.5, -3.7, -6.5, -3.9, 3.3, -14.6, -7.1, -13.4, -10.8, -10.1, -11.7, -2.1, -8.5, -5.6, -13.5, -7.3, -17.9, -22.1, -4.2, -8.4, -9.5, -9.4, -18.2, -6.9, -6.5, -5.8, -7.4, -6.2, -3.2, -9.5, -8.8, -9.2, -5.4, -11.5, -7.6, -4.8, -6.2, -6.6, -9.4, -6.0, -10.1, -8.4, -14.8, -10.7, -18.5, -5.6, -7.9, -18.7, -5.8, -11.4, -7.2, -10.2, -8.7, -6.6, -20.0, -19.1, -14.0, -10.4, -4.6, -8.3, -8.5, -11.5, -5.6, 4.5, -8.9, -16.2, -6.5, -11.1, -8.5, -5.4, -6.2, -5.1, -6.6, -1.0, -7.4, -5.2, -8.7, -10.6, -15.1, -7.0, 1.3, -3.9, -15.2, -7.5, -7.3, -7.5, -9.9, -21.6, -15.7, -14.8, -7.2, -7.1, -11.1, -7.1, -11.0, -9.9, -8.2, -5.4, -4.2, 7.6, -6.2, -0.6, -6.4, -15.1, -8.7, -5.5, -4.2, -12.4, -10.8, -3.7, -9.7, -5.3, -15.9, -9.2, -11.5, -9.3, -12.3, -11.3, -13.8, -13.7, -6.5, -13.4, -6.9, -5.6, -8.9, -1.2, -7.1, -8.2, -4.5, -15.1, -8.4, -12.2, -2.9, -18.2, -6.6, -24.7, -6.7, -6.8, -5.7, -15.5, -6.1, -6.1, -11.8, -11.3, -8.9, -10.0, -7.2, -9.6, -11.3, -4.4, -8.1, -11.6, -14.3, -1.2, -0.6, -9.7, -15.8, -12.1, -8.6, -13.4, -9.6, -14.3, -8.8, -12.7, -10.9, -9.5, -14.1, -4.9, -5.4], "yaxis": "y"}, {"customdata": [["CON"]], "hoverlabel": {"namelength": 0}, "hovertemplate": "<b>%{hovertext}</b><br><br>Result=LAB GAIN<br>Mean age of electorate=%{x}<br>LAB vote share change %=%{y}<br>Last election=%{customdata[0]}", "hovertext": ["Putney"], "legendgroup": "Result=LAB GAIN", "marker": {"color": "violet", "symbol": "circle"}, "mode": "markers", "name": "Result=LAB GAIN", "showlegend": true, "type": "scatter", "x": [43.306], "xaxis": "x", "y": [4.4], "yaxis": "y"}],
+                        {"legend": {"tracegroupgap": 0}, "template": {"data": {"bar": [{"error_x": {"color": "#2a3f5f"}, "error_y": {"color": "#2a3f5f"}, "marker": {"line": {"color": "#E5ECF6", "width": 0.5}}, "type": "bar"}], "barpolar": [{"marker": {"line": {"color": "#E5ECF6", "width": 0.5}}, "type": "barpolar"}], "carpet": [{"aaxis": {"endlinecolor": "#2a3f5f", "gridcolor": "white", "linecolor": "white", "minorgridcolor": "white", "startlinecolor": "#2a3f5f"}, "baxis": {"endlinecolor": "#2a3f5f", "gridcolor": "white", "linecolor": "white", "minorgridcolor": "white", "startlinecolor": "#2a3f5f"}, "type": "carpet"}], "choropleth": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "type": "choropleth"}], "contour": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "contour"}], "contourcarpet": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "type": "contourcarpet"}], "heatmap": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "heatmap"}], "heatmapgl": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "heatmapgl"}], "histogram": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "histogram"}], "histogram2d": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "histogram2d"}], "histogram2dcontour": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "histogram2dcontour"}], "mesh3d": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "type": "mesh3d"}], "parcoords": [{"line": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "parcoords"}], "pie": [{"automargin": true, "type": "pie"}], "scatter": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatter"}], "scatter3d": [{"line": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatter3d"}], "scattercarpet": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattercarpet"}], "scattergeo": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattergeo"}], "scattergl": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattergl"}], "scattermapbox": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattermapbox"}], "scatterpolar": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatterpolar"}], "scatterpolargl": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatterpolargl"}], "scatterternary": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatterternary"}], "surface": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "surface"}], "table": [{"cells": {"fill": {"color": "#EBF0F8"}, "line": {"color": "white"}}, "header": {"fill": {"color": "#C8D4E3"}, "line": {"color": "white"}}, "type": "table"}]}, "layout": {"annotationdefaults": {"arrowcolor": "#2a3f5f", "arrowhead": 0, "arrowwidth": 1}, "coloraxis": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "colorscale": {"diverging": [[0, "#8e0152"], [0.1, "#c51b7d"], [0.2, "#de77ae"], [0.3, "#f1b6da"], [0.4, "#fde0ef"], [0.5, "#f7f7f7"], [0.6, "#e6f5d0"], [0.7, "#b8e186"], [0.8, "#7fbc41"], [0.9, "#4d9221"], [1, "#276419"]], "sequential": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "sequentialminus": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]]}, "colorway": ["#636efa", "#EF553B", "#00cc96", "#ab63fa", "#FFA15A", "#19d3f3", "#FF6692", "#B6E880", "#FF97FF", "#FECB52"], "font": {"color": "#2a3f5f"}, "geo": {"bgcolor": "white", "lakecolor": "white", "landcolor": "#E5ECF6", "showlakes": true, "showland": true, "subunitcolor": "white"}, "hoverlabel": {"align": "left"}, "hovermode": "closest", "mapbox": {"style": "light"}, "paper_bgcolor": "white", "plot_bgcolor": "#E5ECF6", "polar": {"angularaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "bgcolor": "#E5ECF6", "radialaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}}, "scene": {"xaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "gridwidth": 2, "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white"}, "yaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "gridwidth": 2, "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white"}, "zaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "gridwidth": 2, "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white"}}, "shapedefaults": {"line": {"color": "#2a3f5f"}}, "ternary": {"aaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "baxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "bgcolor": "#E5ECF6", "caxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}}, "title": {"x": 0.05}, "xaxis": {"automargin": true, "gridcolor": "white", "linecolor": "white", "ticks": "", "title": {"standoff": 15}, "zerolinecolor": "white", "zerolinewidth": 2}, "yaxis": {"automargin": true, "gridcolor": "white", "linecolor": "white", "ticks": "", "title": {"standoff": 15}, "zerolinecolor": "white", "zerolinewidth": 2}}}, "title": {"text": "Mean age of electorate by change in Labour vote share"}, "xaxis": {"anchor": "y", "domain": [0.0, 1.0], "title": {"text": "Mean age of electorate"}}, "yaxis": {"anchor": "x", "domain": [0.0, 1.0], "title": {"text": "LAB vote share change %"}}},
+                        {"responsive": true}
+                    )
+                };
+                
+            </script>
+        </div>
+</body>
+</html>
+<a href="../../code/plotly_ge_meanage_vs_lc" class="graphButton">Code</a>
+<a href="https://github.com/ElectionPlots/data" class="graphButton">Data</a> 
+<span style="float: right;"><a href="../../graph/plotly_ge_meanage_vs_lc" class="graphButton" title="Full page view">&#9974;</a></span></p>
+<p>The three seats, Wirral South, Wirral West and Sefton Central, are the three red dots furthest to the right on the graph. They all had a drop in Labour vote share but not enough to lose the seat. Threre were only a handful of other seats with similar majorities in 2017 that Labour actually lost this time around. The fact that they bucked the trend in terms of age demographics remains to be explained.</p>
+
+      
+      <div class="related">
+
+<h3>Similar articles:</h3>
+<ul>
+	
+	<li><a href="/post/the-plot-thickens/">The Plot Thickens</a></li>
+	
+	<li><a href="/post/mean-age-daydream/">Mean Age Daydream</a></li>
+	
+</ul>
+</div>
+      
+    </div>
+    
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+    <aside><div id="disqus_thread"></div></aside>
+  
+    <div id="show_comments"><a id="load_comments" class="button is-link">Load comments</a></div>
+  
+    <script type="text/javascript">
+      var disqus_shortname = 'election-plots';
+      function disqus() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      }
+  
+      
+      var hash = window.location.hash.substr(1);
+      if ((hash.length > 8) && (hash.substring(0, 8) === "comment-")) {
+        disqus();
+        document.getElementById("show_comments").style.display = "none";
+      } else {
+        document.getElementById('load_comments').onclick = function() {
+          disqus();
+          document.getElementById("show_comments").style.display = "none";
+        };
+      }
+  
+
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container has-text-centered">
+    <p></p>
+    
+  </div>
+</section>
+
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="\/\/matomo.example.com\/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript>
+  <img src="//matomo.example.com/piwik.php?idsite=1&amp;rec=1" style="border:0" alt="" />
+</noscript>
+
+<script>
+    (function(f, a, t, h, o, m){
+        a[h]=a[h]||function(){
+            (a[h].q=a[h].q||[]).push(arguments)
+        };
+        o=f.createElement('script'),
+        m=f.getElementsByTagName('script')[0];
+        o.async=1; o.src=t; o.id='fathom-script';
+        m.parentNode.insertBefore(o,m)
+    })(document, window, '\/\/fathom.example.com\/tracker.js', 'fathom');
+    fathom('trackPageview');
+</script>
+</body>
+</html>
+

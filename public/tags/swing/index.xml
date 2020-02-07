@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>swing on Election Plots</title>
+    <link>http://localhost/tags/swing/</link>
+    <description>Recent content in swing on Election Plots</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 03 Feb 2020 14:16:29 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost/tags/swing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Election in 3-D</title>
+      <link>http://localhost/post/the-election-in-3d/</link>
+      <pubDate>Mon, 03 Feb 2020 14:16:29 +0000</pubDate>
+      
+      <guid>http://localhost/post/the-election-in-3d/</guid>
+      <description>Combining constituency mean age, leave vote, change in Labour vote share and swing from Labour to Conservative in three-dimensional scatter graphs.&lt;img src=&#34;http://localhost/plotly_ge_meanage_eu_vs_small.jpg#r&#34; alt=&#34;3d thumbnail&#34;&gt;</description>
+    </item>
+    
+    <item>
+      <title>Regional Variations</title>
+      <link>http://localhost/post/regional-variations/</link>
+      <pubDate>Mon, 03 Feb 2020 11:13:47 +0000</pubDate>
+      
+      <guid>http://localhost/post/regional-variations/</guid>
+      <description>How do the graphs look for different regions of the UK?&lt;img src=&#34;http://localhost/plotly_go_eu_swing_buttons_small.jpg#r&#34; alt=&#34;Filter by region&#34;&gt;</description>
+    </item>
+    
+    <item>
+      <title>...if it ain&#39;t got that swing</title>
+      <link>http://localhost/post/if-it-aint-got-that-swing/</link>
+      <pubDate>Sun, 02 Feb 2020 19:59:32 +0000</pubDate>
+      
+      <guid>http://localhost/post/if-it-aint-got-that-swing/</guid>
+      <description>Using swing from Labour to Conservative rather than change in Labour vote share.&lt;img src=&#34;http://localhost/plotly_ge_eu_swing_trendline_small.jpg#r&#34; alt=&#34;Constituency leave vote by swing from Labour to Conservative (all)&#34;&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vote share on Election Plots</title>
+    <link>http://localhost/tags/vote-share/</link>
+    <description>Recent content in vote share on Election Plots</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 23 Jan 2020 12:09:19 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost/tags/vote-share/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>It Don&#39;t Mean a Thing</title>
+      <link>http://localhost/post/it-dont-mean-a-thing/</link>
+      <pubDate>Thu, 23 Jan 2020 12:09:19 +0000</pubDate>
+      
+      <guid>http://localhost/post/it-dont-mean-a-thing/</guid>
+      <description>Looking at the change in the Labour vote share in relation to the age demographics of constituencies and the Leave vote percentage.&lt;img src=&#34;http://localhost/plot_ge_eu_vs_lc_trendline_small.png#r&#34; alt=&#34;Vote by leave vote and Labour vote share change&#34;&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://localhost/code/</loc>
+    <lastmod>2020-02-03T14:24:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/</loc>
+    <lastmod>2020-02-03T14:24:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/code/plotly_ge_meanage_eu_swing/</loc>
+    <lastmod>2020-02-03T14:24:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/code/plotly_ge_meanage_eu_vs/</loc>
+    <lastmod>2020-02-03T14:24:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/graph/</loc>
+    <lastmod>2020-02-03T14:23:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/graph/plotly_ge_meanage_eu_swing/</loc>
+    <lastmod>2020-02-03T14:23:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/graph/plotly_ge_meanage_eu_vs/</loc>
+    <lastmod>2020-02-03T14:23:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/tags/2019/</loc>
+    <lastmod>2020-02-03T14:16:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/tags/age/</loc>
+    <lastmod>2020-02-03T14:16:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/tags/brexit/</loc>
+    <lastmod>2020-02-03T14:16:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/tags/ge/</loc>
+    <lastmod>2020-02-03T14:16:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/post/</loc>
+    <lastmod>2020-02-03T14:16:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/tags/swing/</loc>
+    <lastmod>2020-02-03T14:16:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/tags/</loc>
+    <lastmod>2020-02-03T14:16:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/post/the-election-in-3d/</loc>
+    <lastmod>2020-02-03T14:16:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/tags/uk/</loc>
+    <lastmod>2020-02-03T14:16:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/code/plotly_go_eu_swing_buttons/</loc>
+    <lastmod>2020-02-03T11:55:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/graph/plotly_go_eu_swing_buttons/</loc>
+    <lastmod>2020-02-03T11:55:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/code/plotly_go_meanage_eu_buttons/</loc>
+    <lastmod>2020-02-03T11:39:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/graph/plotly_go_meanage_eu_buttons/</loc>
+    <lastmod>2020-02-03T11:39:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/post/regional-variations/</loc>
+    <lastmod>2020-02-03T11:13:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/tags/regions/</loc>
+    <lastmod>2020-02-03T11:13:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/code/plotly_ge_eu_swing_trendline/</loc>
+    <lastmod>2020-02-02T23:17:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/graph/plotly_ge_eu_swing_trendline/</loc>
+    <lastmod>2020-02-02T23:17:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/code/plot_ge_eu_swing_trendline/</loc>
+    <lastmod>2020-02-02T23:04:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/code/plot_ge_meanage_swing_trendline/</loc>
+    <lastmod>2020-02-02T22:02:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/post/if-it-aint-got-that-swing/</loc>
+    <lastmod>2020-02-02T19:59:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/code/plotly_ge_meanage_vs_lc/</loc>
+    <lastmod>2020-02-02T14:30:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/graph/plotly_ge_meanage_vs_lc/</loc>
+    <lastmod>2020-02-02T14:28:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/code/plot_ge_eu_vs_lc_trendline/</loc>
+    <lastmod>2020-02-02T13:47:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/code/plot_ge_meanage_vs_lc_trendline/</loc>
+    <lastmod>2020-02-02T13:29:59+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/code/plot_ge_meanage_vs_lc/</loc>
+    <lastmod>2020-02-02T11:50:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/graph/plotly_ge_meanage_eu_lc_arrows/</loc>
+    <lastmod>2020-02-01T22:11:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/code/plot_ge_meanage_eu_lc_arrows/</loc>
+    <lastmod>2020-02-01T21:55:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/code/plotly_ge_meanage_eu_lc_arrows/</loc>
+    <lastmod>2020-02-01T21:54:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/code/plotly_ge_meanage_eu_lc/</loc>
+    <lastmod>2020-01-27T10:48:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/post/it-dont-mean-a-thing/</loc>
+    <lastmod>2020-01-23T12:09:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/tags/merseyside/</loc>
+    <lastmod>2020-01-23T12:09:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/tags/vote-share/</loc>
+    <lastmod>2020-01-23T12:09:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/graph/plotly_ge_meanage_eu_lc/</loc>
+    <lastmod>2020-01-19T22:30:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/post/the-plot-thickens/</loc>
+    <lastmod>2020-01-19T19:22:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/techs/matplotlib/</loc>
+    <lastmod>2020-01-19T17:21:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/post/mean-age-daydream/</loc>
+    <lastmod>2020-01-19T17:21:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/techs/python/</loc>
+    <lastmod>2020-01-19T17:21:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/techs/scatter/</loc>
+    <lastmod>2020-01-19T17:21:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/techs/seaborn/</loc>
+    <lastmod>2020-01-19T17:21:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/techs/</loc>
+    <lastmod>2020-01-19T17:21:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/post/welcome/</loc>
+    <lastmod>2020-01-19T15:58:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/categories/</loc>
+  </url>
+  
+</urlset>

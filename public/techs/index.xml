@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Techs on Election Plots</title>
+    <link>http://localhost/techs/</link>
+    <description>Recent content in Techs on Election Plots</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 19 Jan 2020 17:21:39 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost/techs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>matplotlib</title>
+      <link>http://localhost/techs/matplotlib/</link>
+      <pubDate>Sun, 19 Jan 2020 17:21:39 +0000</pubDate>
+      
+      <guid>http://localhost/techs/matplotlib/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://localhost/techs/python/</link>
+      <pubDate>Sun, 19 Jan 2020 17:21:39 +0000</pubDate>
+      
+      <guid>http://localhost/techs/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scatter</title>
+      <link>http://localhost/techs/scatter/</link>
+      <pubDate>Sun, 19 Jan 2020 17:21:39 +0000</pubDate>
+      
+      <guid>http://localhost/techs/scatter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>seaborn</title>
+      <link>http://localhost/techs/seaborn/</link>
+      <pubDate>Sun, 19 Jan 2020 17:21:39 +0000</pubDate>
+      
+      <guid>http://localhost/techs/seaborn/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,51 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Election Plots</title>
+    <link>http://localhost/</link>
+    <description>Recent content on Election Plots</description>
+    <generator>Hugo - gohugo.io</generator>
+    <language>en</language>
+    <contact>electionplots@gmail.com</contact>
+    <copyright></copyright>
+    
+        <atom:link href="http://localhost/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Codes</title>
+      <link>http://localhost/code/</link>
+      <pubDate>Mon, 03 Feb 2020 14:24:10 +0000</pubDate>
+      <author>Election Plots</author>
+      <guid>http://localhost/code/</guid>
+      <description></description>
+      
+      <content></content>
+      
+    </item>
+    
+    <item>
+      <title>Graphs</title>
+      <link>http://localhost/graph/</link>
+      <pubDate>Mon, 03 Feb 2020 14:23:50 +0000</pubDate>
+      <author>Election Plots</author>
+      <guid>http://localhost/graph/</guid>
+      <description></description>
+      
+      <content></content>
+      
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>http://localhost/post/</link>
+      <pubDate>Mon, 03 Feb 2020 14:16:29 +0000</pubDate>
+      <author>Election Plots</author>
+      <guid>http://localhost/post/</guid>
+      <description></description>
+      
+      <content></content>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,256 @@
+<html>
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link rel="stylesheet" href="/css/syntax.css"/>
+     <title>Document</title>
+</head>
+<body>
+    <div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">  1
+</span><span class="lnt">  2
+</span><span class="lnt">  3
+</span><span class="lnt">  4
+</span><span class="lnt">  5
+</span><span class="lnt">  6
+</span><span class="lnt">  7
+</span><span class="lnt">  8
+</span><span class="lnt">  9
+</span><span class="lnt"> 10
+</span><span class="lnt"> 11
+</span><span class="lnt"> 12
+</span><span class="lnt"> 13
+</span><span class="lnt"> 14
+</span><span class="lnt"> 15
+</span><span class="lnt"> 16
+</span><span class="lnt"> 17
+</span><span class="lnt"> 18
+</span><span class="lnt"> 19
+</span><span class="lnt"> 20
+</span><span class="lnt"> 21
+</span><span class="lnt"> 22
+</span><span class="lnt"> 23
+</span><span class="lnt"> 24
+</span><span class="lnt"> 25
+</span><span class="lnt"> 26
+</span><span class="lnt"> 27
+</span><span class="lnt"> 28
+</span><span class="lnt"> 29
+</span><span class="lnt"> 30
+</span><span class="lnt"> 31
+</span><span class="lnt"> 32
+</span><span class="lnt"> 33
+</span><span class="lnt"> 34
+</span><span class="lnt"> 35
+</span><span class="lnt"> 36
+</span><span class="lnt"> 37
+</span><span class="lnt"> 38
+</span><span class="lnt"> 39
+</span><span class="lnt"> 40
+</span><span class="lnt"> 41
+</span><span class="lnt"> 42
+</span><span class="lnt"> 43
+</span><span class="lnt"> 44
+</span><span class="lnt"> 45
+</span><span class="lnt"> 46
+</span><span class="lnt"> 47
+</span><span class="lnt"> 48
+</span><span class="lnt"> 49
+</span><span class="lnt"> 50
+</span><span class="lnt"> 51
+</span><span class="lnt"> 52
+</span><span class="lnt"> 53
+</span><span class="lnt"> 54
+</span><span class="lnt"> 55
+</span><span class="lnt"> 56
+</span><span class="lnt"> 57
+</span><span class="lnt"> 58
+</span><span class="lnt"> 59
+</span><span class="lnt"> 60
+</span><span class="lnt"> 61
+</span><span class="lnt"> 62
+</span><span class="lnt"> 63
+</span><span class="lnt"> 64
+</span><span class="lnt"> 65
+</span><span class="lnt"> 66
+</span><span class="lnt"> 67
+</span><span class="lnt"> 68
+</span><span class="lnt"> 69
+</span><span class="lnt"> 70
+</span><span class="lnt"> 71
+</span><span class="lnt"> 72
+</span><span class="lnt"> 73
+</span><span class="lnt"> 74
+</span><span class="lnt"> 75
+</span><span class="lnt"> 76
+</span><span class="lnt"> 77
+</span><span class="lnt"> 78
+</span><span class="lnt"> 79
+</span><span class="lnt"> 80
+</span><span class="lnt"> 81
+</span><span class="lnt"> 82
+</span><span class="lnt"> 83
+</span><span class="lnt"> 84
+</span><span class="lnt"> 85
+</span><span class="lnt"> 86
+</span><span class="lnt"> 87
+</span><span class="lnt"> 88
+</span><span class="lnt"> 89
+</span><span class="lnt"> 90
+</span><span class="lnt"> 91
+</span><span class="lnt"> 92
+</span><span class="lnt"> 93
+</span><span class="lnt"> 94
+</span><span class="lnt"> 95
+</span><span class="lnt"> 96
+</span><span class="lnt"> 97
+</span><span class="lnt"> 98
+</span><span class="lnt"> 99
+</span><span class="lnt">100
+</span><span class="lnt">101
+</span><span class="lnt">102
+</span><span class="lnt">103
+</span><span class="lnt">104
+</span><span class="lnt">105
+</span><span class="lnt">106
+</span><span class="lnt">107
+</span><span class="lnt">108
+</span><span class="lnt">109
+</span><span class="lnt">110
+</span><span class="lnt">111
+</span><span class="lnt">112
+</span><span class="lnt">113
+</span><span class="lnt">114
+</span><span class="lnt">115
+</span><span class="lnt">116
+</span><span class="lnt">117
+</span><span class="lnt">118
+</span><span class="lnt">119
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-py3" data-lang="py3"><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">plotly</span><span class="nn">.</span><span class="nn">express</span> <span class="k">as</span> <span class="nn">px</span>
+
+<span class="n">color_dict</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="p">{</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">CON HOLD</span><span class="s1">&#39;</span><span class="p">:</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">blue</span><span class="s1">&#39;</span><span class="p">,</span>
+                  <span class="sa"></span><span class="s1">&#39;</span><span class="s1">CON GAIN</span><span class="s1">&#39;</span><span class="p">:</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">aqua</span><span class="s1">&#39;</span><span class="p">,</span>
+                  <span class="sa"></span><span class="s1">&#39;</span><span class="s1">LAB HOLD</span><span class="s1">&#39;</span><span class="p">:</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">red</span><span class="s1">&#39;</span><span class="p">,</span>
+                  <span class="sa"></span><span class="s1">&#39;</span><span class="s1">LAB GAIN</span><span class="s1">&#39;</span><span class="p">:</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">violet</span><span class="s1">&#39;</span><span class="p">,</span>
+                  <span class="sa"></span><span class="s1">&#39;</span><span class="s1">GRN HOLD</span><span class="s1">&#39;</span><span class="p">:</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">green</span><span class="s1">&#39;</span><span class="p">,</span>
+                  <span class="sa"></span><span class="s1">&#39;</span><span class="s1">DUP HOLD</span><span class="s1">&#39;</span><span class="p">:</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">sandybrown</span><span class="s1">&#39;</span><span class="p">,</span>
+                  <span class="sa"></span><span class="s1">&#39;</span><span class="s1">LD HOLD</span><span class="s1">&#39;</span><span class="p">:</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">yellow</span><span class="s1">&#39;</span><span class="p">,</span>
+                  <span class="sa"></span><span class="s1">&#39;</span><span class="s1">LD GAIN</span><span class="s1">&#39;</span><span class="p">:</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">orange</span><span class="s1">&#39;</span><span class="p">,</span>
+                  <span class="sa"></span><span class="s1">&#39;</span><span class="s1">SNP HOLD</span><span class="s1">&#39;</span><span class="p">:</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">black</span><span class="s1">&#39;</span><span class="p">,</span>
+                  <span class="sa"></span><span class="s1">&#39;</span><span class="s1">SNP GAIN</span><span class="s1">&#39;</span><span class="p">:</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">gray</span><span class="s1">&#39;</span><span class="p">,</span>
+                  <span class="sa"></span><span class="s1">&#39;</span><span class="s1">PC HOLD</span><span class="s1">&#39;</span><span class="p">:</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">pink</span><span class="s1">&#39;</span><span class="p">,</span>
+                  <span class="sa"></span><span class="s1">&#39;</span><span class="s1">SF HOLD</span><span class="s1">&#39;</span><span class="p">:</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">peru</span><span class="s1">&#39;</span><span class="p">,</span>
+                  <span class="sa"></span><span class="s1">&#39;</span><span class="s1">SF GAIN</span><span class="s1">&#39;</span><span class="p">:</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">wheat</span><span class="s1">&#39;</span><span class="p">,</span>
+                  <span class="sa"></span><span class="s1">&#39;</span><span class="s1">SDLP HOLD</span><span class="s1">&#39;</span><span class="p">:</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">salmon</span><span class="s1">&#39;</span><span class="p">,</span>
+                  <span class="sa"></span><span class="s1">&#39;</span><span class="s1">SDLP GAIN</span><span class="s1">&#39;</span><span class="p">:</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">lightsalmon</span><span class="s1">&#39;</span><span class="p">,</span>
+                  <span class="sa"></span><span class="s1">&#39;</span><span class="s1">APNI GAIN</span><span class="s1">&#39;</span><span class="p">:</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">lawngreen</span><span class="s1">&#39;</span><span class="p">,</span>
+                  <span class="sa"></span><span class="s1">&#39;</span><span class="s1">SPE HOLD</span><span class="s1">&#39;</span><span class="p">:</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">navy</span><span class="s1">&#39;</span><span class="p">}</span><span class="p">)</span>
+
+<span class="n">df_con</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">constituencies.csv</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="n">df_can_res</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">candidate_results.csv</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="n">df_age</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">Age_by_year_data.csv</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="n">df_con_head</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">constituency_headline.csv</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="n">df_con_eu</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">eureferendum_constituency.csv</span><span class="s1">&#39;</span><span class="p">)</span>
+
+<span class="n">age_start</span> <span class="o">=</span> <span class="mi">18</span>
+<span class="n">winning_party_list</span> <span class="o">=</span> <span class="p">[</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">LAB</span><span class="s2">&#34;</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">CON</span><span class="s2">&#34;</span><span class="p">]</span>
+
+<span class="c1"># add ons code to candidate results</span>
+<span class="n">df_res</span> <span class="o">=</span> <span class="n">df_con</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">df_can_res</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="p">[</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">conID</span><span class="s1">&#39;</span><span class="p">]</span><span class="p">)</span><span class="p">,</span> <span class="n">on</span><span class="o">=</span><span class="p">[</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">conID</span><span class="s1">&#39;</span><span class="p">]</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">inner</span><span class="s1">&#39;</span><span class="p">)</span>
+
+<span class="c1"># include only the two parties with the most votes in each seat</span>
+<span class="n">df_res</span> <span class="o">=</span> <span class="n">df_res</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="p">[</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">ons</span><span class="s1">&#39;</span><span class="p">,</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">votes</span><span class="s1">&#39;</span><span class="p">]</span><span class="p">)</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">ons</span><span class="s1">&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">tail</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+
+<span class="c1"># exclude parties other than lab and con</span>
+<span class="n">df_res</span> <span class="o">=</span> <span class="n">df_res</span><span class="p">[</span><span class="n">df_res</span><span class="p">[</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">partyCode</span><span class="s1">&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">winning_party_list</span><span class="p">)</span><span class="p">]</span>
+
+<span class="c1"># exclude seats with only one row</span>
+<span class="n">df_res</span> <span class="o">=</span> <span class="n">df_res</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">ons</span><span class="s1">&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">)</span>
+
+<span class="c1"># we want the vote share for both Lab and Con</span>
+<span class="c1"># get df for Lab vote share change</span>
+<span class="n">query_string</span> <span class="o">=</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">partyCode ==</span><span class="s1">&#34;</span><span class="s1">LAB</span><span class="s1">&#34;</span><span class="s1">&#39;</span>
+<span class="n">df_lvsc</span> <span class="o">=</span> <span class="n">df_res</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="n">query_string</span><span class="p">)</span>
+
+<span class="c1"># rename vote share change column</span>
+<span class="n">df_lvsc</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span> <span class="p">{</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">voteShareChange</span><span class="s1">&#39;</span><span class="p">:</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">lvsc</span><span class="s1">&#39;</span><span class="p">}</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="c1"># get df for Con vote share change</span>
+<span class="n">query_string</span> <span class="o">=</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">partyCode ==</span><span class="s1">&#34;</span><span class="s1">CON</span><span class="s1">&#34;</span><span class="s1">&#39;</span>
+<span class="n">df_cvsc</span> <span class="o">=</span> <span class="n">df_res</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="n">query_string</span><span class="p">)</span>
+
+<span class="c1"># rename vote share change column</span>
+<span class="n">df_cvsc</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span> <span class="p">{</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">voteShareChange</span><span class="s1">&#39;</span><span class="p">:</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">cvsc</span><span class="s1">&#39;</span><span class="p">}</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="c1"># now join the two into one df</span>
+
+<span class="n">df_swing</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">df_lvsc</span><span class="p">,</span><span class="n">df_cvsc</span><span class="p">[</span><span class="p">[</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">ons</span><span class="s1">&#39;</span><span class="p">,</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">cvsc</span><span class="s1">&#39;</span><span class="p">]</span><span class="p">]</span><span class="p">,</span><span class="n">on</span><span class="o">=</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">ons</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">left</span><span class="s1">&#39;</span><span class="p">)</span>
+
+<span class="c1"># now calculate the swing to the cons using the Butler method: (cvsc - lvsc) / 2</span>
+<span class="n">df_swing</span><span class="p">[</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">swing</span><span class="s1">&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">df_swing</span><span class="p">[</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">cvsc</span><span class="s1">&#39;</span><span class="p">]</span> <span class="o">-</span> <span class="n">df_swing</span><span class="p">[</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">lvsc</span><span class="s1">&#39;</span><span class="p">]</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span>
+
+<span class="c1"># get required age range</span>
+<span class="n">df_age</span> <span class="o">=</span> <span class="n">df_age</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">Age_year &gt;= </span><span class="s2">&#34;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">age_start</span><span class="p">)</span><span class="p">)</span>
+
+<span class="n">df_age_grp</span> <span class="o">=</span> <span class="n">df_age</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">PCON11CD</span><span class="s2">&#34;</span><span class="p">)</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">df</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span> <span class="nb">sum</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">a</span><span class="p">]</span> <span class="o">*</span> <span class="n">df</span><span class="p">[</span><span class="n">b</span><span class="p">]</span><span class="p">)</span> <span class="o">/</span> <span class="nb">sum</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">b</span><span class="p">]</span><span class="p">)</span><span class="p">,</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">Age_year</span><span class="s1">&#39;</span><span class="p">,</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">Age_pop</span><span class="s1">&#39;</span><span class="p">)</span>
+
+<span class="c1"># convert series to dataframe with same name</span>
+<span class="n">df_age_grp</span> <span class="o">=</span> <span class="n">df_age_grp</span><span class="o">.</span><span class="n">to_frame</span><span class="p">(</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="p">)</span>
+
+<span class="c1"># give column a name</span>
+<span class="n">df_age_grp</span> <span class="o">=</span> <span class="n">df_age_grp</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span> <span class="p">{</span><span class="mi">0</span><span class="p">:</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">mean_age</span><span class="s1">&#39;</span><span class="p">}</span><span class="p">)</span>
+
+<span class="c1"># join EU data with election headlines</span>
+<span class="n">df_eu_hd</span> <span class="o">=</span> <span class="n">df_con_eu</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">df_con_head</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="p">[</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">ons</span><span class="s1">&#39;</span><span class="p">]</span><span class="p">)</span><span class="p">,</span> <span class="n">on</span><span class="o">=</span><span class="p">[</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">ons_code</span><span class="s1">&#39;</span><span class="p">]</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">inner</span><span class="s1">&#39;</span><span class="p">)</span>
+
+<span class="c1"># join the result with age data</span>
+<span class="n">df_age_eu</span> <span class="o">=</span> <span class="n">df_age_grp</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">df_eu_hd</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="p">[</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">ons_code</span><span class="s1">&#39;</span><span class="p">]</span><span class="p">)</span><span class="p">,</span> <span class="n">on</span><span class="o">=</span><span class="p">[</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">PCON11CD</span><span class="s1">&#39;</span><span class="p">]</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">inner</span><span class="s1">&#39;</span><span class="p">)</span>
+
+<span class="c1"># join that with the vote share change data for selected party.</span>
+<span class="n">df_age_eu_vs</span> <span class="o">=</span> <span class="n">df_age_eu</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">df_swing</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="p">[</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">ons</span><span class="s1">&#39;</span><span class="p">]</span><span class="p">)</span><span class="p">,</span> <span class="n">on</span><span class="o">=</span><span class="p">[</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">PCON11CD</span><span class="s1">&#39;</span><span class="p">]</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">inner</span><span class="s1">&#39;</span><span class="p">)</span>
+
+
+<span class="c1"># replace WIN with HOLD (not clear how it differs)</span>
+<span class="n">df_age_eu_vs</span><span class="p">[</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">headline</span><span class="s1">&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_age_eu_vs</span><span class="p">[</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">flash</span><span class="s1">&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1"> </span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="p">)</span><span class="p">[</span><span class="p">:</span><span class="mi">2</span><span class="p">]</span><span class="p">)</span><span class="p">)</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">WIN</span><span class="s1">&#39;</span><span class="p">,</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">HOLD</span><span class="s1">&#39;</span><span class="p">)</span>
+
+<span class="c1"># round percentages</span>
+<span class="n">decimals</span> <span class="o">=</span> <span class="mi">1</span>   
+<span class="n">df_age_eu_vs</span><span class="p">[</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">mean_age</span><span class="s1">&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_age_eu</span><span class="p">[</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">mean_age</span><span class="s1">&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="nb">round</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">decimals</span><span class="p">)</span><span class="p">)</span>
+
+<span class="n">df_age_eu_vs</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span> <span class="o">=</span> <span class="p">{</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">wpp</span><span class="s1">&#39;</span><span class="p">:</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">Last election</span><span class="s1">&#39;</span><span class="p">}</span><span class="p">,</span> <span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span> 
+
+<span class="c1"># set log_x = &#39;true&#39; to make x axis wider</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">scatter_3d</span><span class="p">(</span>
+   <span class="n">df_age_eu_vs</span><span class="p">,</span> <span class="n">x</span> <span class="o">=</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">mean_age</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">leave_to_use</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">z</span> <span class="o">=</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">swing</span><span class="s1">&#39;</span><span class="p">,</span>
+   <span class="n">color</span> <span class="o">=</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">headline</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">hover_name</span> <span class="o">=</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">conName</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">hover_data</span> <span class="o">=</span> <span class="p">[</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">Last election</span><span class="s1">&#39;</span><span class="p">]</span><span class="p">,</span>
+   <span class="n">labels</span> <span class="o">=</span> <span class="p">{</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">mean_age</span><span class="s1">&#39;</span><span class="p">:</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">Mean age of electorate</span><span class="s1">&#39;</span><span class="p">,</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">leave_to_use</span><span class="s1">&#39;</span><span class="p">:</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">Leave </span><span class="s1">%</span><span class="s1">&#39;</span><span class="p">,</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">swing</span><span class="s1">&#39;</span><span class="p">:</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">Swing from Labour to Conservative </span><span class="s1">%</span><span class="s1">&#39;</span><span class="p">,</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">headline</span><span class="s1">&#39;</span><span class="p">:</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">Result</span><span class="s1">&#39;</span><span class="p">}</span><span class="p">,</span> 
+   <span class="n">title</span> <span class="o">=</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">Mean age of electorate by constituency leave vote and swing from Labour to Conservative</span><span class="s1">&#39;</span><span class="p">,</span> 
+   <span class="n">color_discrete_map</span> <span class="o">=</span> <span class="n">color_dict</span><span class="p">,</span> <span class="n">log_x</span><span class="o">=</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">False</span><span class="s1">&#39;</span><span class="p">)</span> 
+
+<span class="n">fig</span><span class="p">[</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">layout</span><span class="s1">&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">showlegend</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">update_traces</span><span class="p">(</span>
+   <span class="n">marker</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span>
+      <span class="n">size</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">line</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span>
+                  <span class="n">width</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">DarkSlateGrey</span><span class="s1">&#39;</span>
+                  <span class="p">)</span>
+      <span class="p">)</span><span class="p">,</span>
+   <span class="n">selector</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">markers</span><span class="s1">&#39;</span><span class="p">)</span>
+   <span class="p">)</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="p">)</span>  
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">plotly_ge_meanage_eu_swing.html</span><span class="s1">&#39;</span><span class="p">,</span> <span class="sa"></span><span class="s1">&#39;</span><span class="s1">w</span><span class="s1">&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+   <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">fig</span><span class="o">.</span><span class="n">to_html</span><span class="p">(</span><span class="n">include_plotlyjs</span><span class="o">=</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">cdn</span><span class="s1">&#39;</span><span class="p">)</span><span class="p">)</span>
+
+
+</code></pre></td></tr></table>
+</div>
+</div>
+</body>
+</html>
