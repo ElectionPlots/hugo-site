@@ -6,7 +6,6 @@ disqusShortname = "election-plots"
 googleAnalytics = ""
 Paginate = 3 # Number of posts per page
 enableRobotsTXT = true
-math = true
 
 pygmentsUseClasses=true
 pygmentsCodefences = true

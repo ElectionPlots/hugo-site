@@ -2,6 +2,8 @@
 title: "...if it ain't got that swing"
 date: 2020-02-02T19:59:32Z
 draft: false
+math: true
+markup: "mmark"
 summary: Using swing from Labour to Conservative rather than change in Labour vote share.![Constituency leave vote by swing from Labour to Conservative (all)](/plotly_ge_eu_swing_trendline_small.jpg#r)
 tags: ["UK", "GE", "2019", "age", "Brexit", "swing"]
 libs: ["Python", "matplotlib", "seaborn", "plotly.express", "scatter", "trendline"]
