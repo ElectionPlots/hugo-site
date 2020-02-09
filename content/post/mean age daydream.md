@@ -13,7 +13,7 @@ Post-election polling by YouGov suggests a striking age divide amongst the Briti
 
 Another strong correlation was of course, that between how people voted in The EU referendum and the general election, with Leave voters overwhelmingly more likely to vote Conservative and to a lesser extent, Remainers more likely to vote Labour.
 
-![Remain and Leave voters](/How&#32;Britain&#32;voted&#32;2019&#32;EUref&#32;sankey-01.png)
+![Remain and Leave voters](/remain-leave-vote-switching.png)
 
 But can this polling data be reproduced from other sources? I attempted to answer this question using the general election results along with data from the House of Commons Library giving a detailed age breakdown of all constituencies and also the EU referendum vote per constituency. This was the result:
 
