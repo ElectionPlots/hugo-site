@@ -1,4 +1,4 @@
-baseurl = "http://localhost"
+baseurl = ""
 languageCode = "en"
 title = "Election Plots"
 theme = "kiss"
