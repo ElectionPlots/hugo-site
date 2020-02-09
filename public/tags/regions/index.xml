@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>regions on Election Plots</title>
-    <link>https://inspiring-kalam-8aa339.netlify.com/tags/regions/</link>
+    <link>https://electionplots.xyz/tags/regions/</link>
     <description>Recent content in regions on Election Plots</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 03 Feb 2020 11:13:47 +0000</lastBuildDate>
     
-	<atom:link href="https://inspiring-kalam-8aa339.netlify.com/tags/regions/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://electionplots.xyz/tags/regions/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Regional Variations</title>
-      <link>https://inspiring-kalam-8aa339.netlify.com/post/regional-variations/</link>
+      <link>https://electionplots.xyz/post/regional-variations/</link>
       <pubDate>Mon, 03 Feb 2020 11:13:47 +0000</pubDate>
       
-      <guid>https://inspiring-kalam-8aa339.netlify.com/post/regional-variations/</guid>
-      <description>How do the graphs look for different regions of the UK?&lt;img src=&#34;https://inspiring-kalam-8aa339.netlify.com/plotly_go_eu_swing_buttons_small.jpg#r&#34; alt=&#34;Filter by region&#34;&gt;</description>
+      <guid>https://electionplots.xyz/post/regional-variations/</guid>
+      <description>How do the graphs look for different regions of the UK?&lt;img src=&#34;https://electionplots.xyz/plotly_go_eu_swing_buttons_small.jpg#r&#34; alt=&#34;Filter by region&#34;&gt;</description>
     </item>
     
   </channel>

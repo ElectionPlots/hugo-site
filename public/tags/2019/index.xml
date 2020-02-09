@@ -2,67 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2019 on Election Plots</title>
-    <link>https://inspiring-kalam-8aa339.netlify.com/tags/2019/</link>
+    <link>https://electionplots.xyz/tags/2019/</link>
     <description>Recent content in 2019 on Election Plots</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 03 Feb 2020 14:16:29 +0000</lastBuildDate>
     
-	<atom:link href="https://inspiring-kalam-8aa339.netlify.com/tags/2019/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://electionplots.xyz/tags/2019/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Election in 3-D</title>
-      <link>https://inspiring-kalam-8aa339.netlify.com/post/the-election-in-3d/</link>
+      <link>https://electionplots.xyz/post/the-election-in-3d/</link>
       <pubDate>Mon, 03 Feb 2020 14:16:29 +0000</pubDate>
       
-      <guid>https://inspiring-kalam-8aa339.netlify.com/post/the-election-in-3d/</guid>
-      <description>Combining constituency mean age, leave vote, change in Labour vote share and swing from Labour to Conservative in three-dimensional scatter graphs.&lt;img src=&#34;https://inspiring-kalam-8aa339.netlify.com/plotly_ge_meanage_eu_vs_small.jpg#r&#34; alt=&#34;3d thumbnail&#34;&gt;</description>
+      <guid>https://electionplots.xyz/post/the-election-in-3d/</guid>
+      <description>Combining constituency mean age, leave vote, change in Labour vote share and swing from Labour to Conservative in three-dimensional scatter graphs.&lt;img src=&#34;https://electionplots.xyz/plotly_ge_meanage_eu_vs_small.jpg#r&#34; alt=&#34;3d thumbnail&#34;&gt;</description>
     </item>
     
     <item>
       <title>Regional Variations</title>
-      <link>https://inspiring-kalam-8aa339.netlify.com/post/regional-variations/</link>
+      <link>https://electionplots.xyz/post/regional-variations/</link>
       <pubDate>Mon, 03 Feb 2020 11:13:47 +0000</pubDate>
       
-      <guid>https://inspiring-kalam-8aa339.netlify.com/post/regional-variations/</guid>
-      <description>How do the graphs look for different regions of the UK?&lt;img src=&#34;https://inspiring-kalam-8aa339.netlify.com/plotly_go_eu_swing_buttons_small.jpg#r&#34; alt=&#34;Filter by region&#34;&gt;</description>
+      <guid>https://electionplots.xyz/post/regional-variations/</guid>
+      <description>How do the graphs look for different regions of the UK?&lt;img src=&#34;https://electionplots.xyz/plotly_go_eu_swing_buttons_small.jpg#r&#34; alt=&#34;Filter by region&#34;&gt;</description>
     </item>
     
     <item>
       <title>...if it ain&#39;t got that swing</title>
-      <link>https://inspiring-kalam-8aa339.netlify.com/post/if-it-aint-got-that-swing/</link>
+      <link>https://electionplots.xyz/post/if-it-aint-got-that-swing/</link>
       <pubDate>Sun, 02 Feb 2020 19:59:32 +0000</pubDate>
       
-      <guid>https://inspiring-kalam-8aa339.netlify.com/post/if-it-aint-got-that-swing/</guid>
-      <description>Using swing from Labour to Conservative rather than change in Labour vote share.&lt;figure&gt;&lt;img src=&#34;https://inspiring-kalam-8aa339.netlify.com/plotly_ge_eu_swing_trendline_small.jpg#r&#34; alt=&#34;Constituency leave vote by swing from Labour to Conservative (all)&#34;&gt;&lt;/figure&gt;</description>
+      <guid>https://electionplots.xyz/post/if-it-aint-got-that-swing/</guid>
+      <description>Using swing from Labour to Conservative rather than change in Labour vote share.&lt;figure&gt;&lt;img src=&#34;https://electionplots.xyz/plotly_ge_eu_swing_trendline_small.jpg#r&#34; alt=&#34;Constituency leave vote by swing from Labour to Conservative (all)&#34;&gt;&lt;/figure&gt;</description>
     </item>
     
     <item>
       <title>It Don&#39;t Mean a Thing</title>
-      <link>https://inspiring-kalam-8aa339.netlify.com/post/it-dont-mean-a-thing/</link>
+      <link>https://electionplots.xyz/post/it-dont-mean-a-thing/</link>
       <pubDate>Thu, 23 Jan 2020 12:09:19 +0000</pubDate>
       
-      <guid>https://inspiring-kalam-8aa339.netlify.com/post/it-dont-mean-a-thing/</guid>
-      <description>Looking at the change in the Labour vote share in relation to the age demographics of constituencies and the Leave vote percentage.&lt;img src=&#34;https://inspiring-kalam-8aa339.netlify.com/plot_ge_eu_vs_lc_trendline_small.png#r&#34; alt=&#34;Vote by leave vote and Labour vote share change&#34;&gt;</description>
+      <guid>https://electionplots.xyz/post/it-dont-mean-a-thing/</guid>
+      <description>Looking at the change in the Labour vote share in relation to the age demographics of constituencies and the Leave vote percentage.&lt;img src=&#34;https://electionplots.xyz/plot_ge_eu_vs_lc_trendline_small.png#r&#34; alt=&#34;Vote by leave vote and Labour vote share change&#34;&gt;</description>
     </item>
     
     <item>
       <title>The Plot Thickens</title>
-      <link>https://inspiring-kalam-8aa339.netlify.com/post/the-plot-thickens/</link>
+      <link>https://electionplots.xyz/post/the-plot-thickens/</link>
       <pubDate>Sun, 19 Jan 2020 19:22:08 +0000</pubDate>
       
-      <guid>https://inspiring-kalam-8aa339.netlify.com/post/the-plot-thickens/</guid>
-      <description>Thinking about three apparent Labour outliers on Merseyside: why did Labour manage to buck the trend and hold these seats?&lt;img src=&#34;https://inspiring-kalam-8aa339.netlify.com/plot_ge_meanage_eu_lc_arrows_small.png#r&#34; alt=&#34;Vote by mean age and leave vote (Con and Lab)&#34;&gt;</description>
+      <guid>https://electionplots.xyz/post/the-plot-thickens/</guid>
+      <description>Thinking about three apparent Labour outliers on Merseyside: why did Labour manage to buck the trend and hold these seats?&lt;img src=&#34;https://electionplots.xyz/plot_ge_meanage_eu_lc_arrows_small.png#r&#34; alt=&#34;Vote by mean age and leave vote (Con and Lab)&#34;&gt;</description>
     </item>
     
     <item>
       <title>Mean Age Daydream</title>
-      <link>https://inspiring-kalam-8aa339.netlify.com/post/mean-age-daydream/</link>
+      <link>https://electionplots.xyz/post/mean-age-daydream/</link>
       <pubDate>Sun, 19 Jan 2020 17:21:39 +0000</pubDate>
       
-      <guid>https://inspiring-kalam-8aa339.netlify.com/post/mean-age-daydream/</guid>
-      <description>What is the relation between the Leave vote in a constituency and the average age of the voters? How do the 2019 election results correlate with these factors?&lt;img src=&#34;https://inspiring-kalam-8aa339.netlify.com/plot_ge_meanage_eu_lc_small.png#r&#34; alt=&#34;Vote by mean age and leave vote (Con and Lab)&#34;&gt;</description>
+      <guid>https://electionplots.xyz/post/mean-age-daydream/</guid>
+      <description>What is the relation between the Leave vote in a constituency and the average age of the voters? How do the 2019 election results correlate with these factors?&lt;img src=&#34;https://electionplots.xyz/plot_ge_meanage_eu_lc_small.png#r&#34; alt=&#34;Vote by mean age and leave vote (Con and Lab)&#34;&gt;</description>
     </item>
     
   </channel>

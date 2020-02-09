@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>scatter on Election Plots</title>
-    <link>https://inspiring-kalam-8aa339.netlify.com/techs/scatter/</link>
+    <link>https://electionplots.xyz/techs/scatter/</link>
     <description>Recent content in scatter on Election Plots</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 19 Jan 2020 17:21:39 +0000</lastBuildDate>
     
-	<atom:link href="https://inspiring-kalam-8aa339.netlify.com/techs/scatter/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://electionplots.xyz/techs/scatter/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mean Age Daydream</title>
-      <link>https://inspiring-kalam-8aa339.netlify.com/post/mean-age-daydream/</link>
+      <link>https://electionplots.xyz/post/mean-age-daydream/</link>
       <pubDate>Sun, 19 Jan 2020 17:21:39 +0000</pubDate>
       
-      <guid>https://inspiring-kalam-8aa339.netlify.com/post/mean-age-daydream/</guid>
-      <description>What is the relation between the Leave vote in a constituency and the average age of the voters? How do the 2019 election results correlate with these factors?&lt;img src=&#34;https://inspiring-kalam-8aa339.netlify.com/plot_ge_meanage_eu_lc_small.png#r&#34; alt=&#34;Vote by mean age and leave vote (Con and Lab)&#34;&gt;</description>
+      <guid>https://electionplots.xyz/post/mean-age-daydream/</guid>
+      <description>What is the relation between the Leave vote in a constituency and the average age of the voters? How do the 2019 election results correlate with these factors?&lt;img src=&#34;https://electionplots.xyz/plot_ge_meanage_eu_lc_small.png#r&#34; alt=&#34;Vote by mean age and leave vote (Con and Lab)&#34;&gt;</description>
     </item>
     
   </channel>

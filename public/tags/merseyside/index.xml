@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Merseyside on Election Plots</title>
-    <link>https://inspiring-kalam-8aa339.netlify.com/tags/merseyside/</link>
+    <link>https://electionplots.xyz/tags/merseyside/</link>
     <description>Recent content in Merseyside on Election Plots</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 23 Jan 2020 12:09:19 +0000</lastBuildDate>
     
-	<atom:link href="https://inspiring-kalam-8aa339.netlify.com/tags/merseyside/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://electionplots.xyz/tags/merseyside/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>It Don&#39;t Mean a Thing</title>
-      <link>https://inspiring-kalam-8aa339.netlify.com/post/it-dont-mean-a-thing/</link>
+      <link>https://electionplots.xyz/post/it-dont-mean-a-thing/</link>
       <pubDate>Thu, 23 Jan 2020 12:09:19 +0000</pubDate>
       
-      <guid>https://inspiring-kalam-8aa339.netlify.com/post/it-dont-mean-a-thing/</guid>
-      <description>Looking at the change in the Labour vote share in relation to the age demographics of constituencies and the Leave vote percentage.&lt;img src=&#34;https://inspiring-kalam-8aa339.netlify.com/plot_ge_eu_vs_lc_trendline_small.png#r&#34; alt=&#34;Vote by leave vote and Labour vote share change&#34;&gt;</description>
+      <guid>https://electionplots.xyz/post/it-dont-mean-a-thing/</guid>
+      <description>Looking at the change in the Labour vote share in relation to the age demographics of constituencies and the Leave vote percentage.&lt;img src=&#34;https://electionplots.xyz/plot_ge_eu_vs_lc_trendline_small.png#r&#34; alt=&#34;Vote by leave vote and Labour vote share change&#34;&gt;</description>
     </item>
     
     <item>
       <title>The Plot Thickens</title>
-      <link>https://inspiring-kalam-8aa339.netlify.com/post/the-plot-thickens/</link>
+      <link>https://electionplots.xyz/post/the-plot-thickens/</link>
       <pubDate>Sun, 19 Jan 2020 19:22:08 +0000</pubDate>
       
-      <guid>https://inspiring-kalam-8aa339.netlify.com/post/the-plot-thickens/</guid>
-      <description>Thinking about three apparent Labour outliers on Merseyside: why did Labour manage to buck the trend and hold these seats?&lt;img src=&#34;https://inspiring-kalam-8aa339.netlify.com/plot_ge_meanage_eu_lc_arrows_small.png#r&#34; alt=&#34;Vote by mean age and leave vote (Con and Lab)&#34;&gt;</description>
+      <guid>https://electionplots.xyz/post/the-plot-thickens/</guid>
+      <description>Thinking about three apparent Labour outliers on Merseyside: why did Labour manage to buck the trend and hold these seats?&lt;img src=&#34;https://electionplots.xyz/plot_ge_meanage_eu_lc_arrows_small.png#r&#34; alt=&#34;Vote by mean age and leave vote (Con and Lab)&#34;&gt;</description>
     </item>
     
   </channel>

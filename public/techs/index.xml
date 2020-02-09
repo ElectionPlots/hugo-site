@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Techs on Election Plots</title>
-    <link>https://inspiring-kalam-8aa339.netlify.com/techs/</link>
+    <link>https://electionplots.xyz/techs/</link>
     <description>Recent content in Techs on Election Plots</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 19 Jan 2020 17:21:39 +0000</lastBuildDate>
     
-	<atom:link href="https://inspiring-kalam-8aa339.netlify.com/techs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://electionplots.xyz/techs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>matplotlib</title>
-      <link>https://inspiring-kalam-8aa339.netlify.com/techs/matplotlib/</link>
+      <link>https://electionplots.xyz/techs/matplotlib/</link>
       <pubDate>Sun, 19 Jan 2020 17:21:39 +0000</pubDate>
       
-      <guid>https://inspiring-kalam-8aa339.netlify.com/techs/matplotlib/</guid>
+      <guid>https://electionplots.xyz/techs/matplotlib/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>https://inspiring-kalam-8aa339.netlify.com/techs/python/</link>
+      <link>https://electionplots.xyz/techs/python/</link>
       <pubDate>Sun, 19 Jan 2020 17:21:39 +0000</pubDate>
       
-      <guid>https://inspiring-kalam-8aa339.netlify.com/techs/python/</guid>
+      <guid>https://electionplots.xyz/techs/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>scatter</title>
-      <link>https://inspiring-kalam-8aa339.netlify.com/techs/scatter/</link>
+      <link>https://electionplots.xyz/techs/scatter/</link>
       <pubDate>Sun, 19 Jan 2020 17:21:39 +0000</pubDate>
       
-      <guid>https://inspiring-kalam-8aa339.netlify.com/techs/scatter/</guid>
+      <guid>https://electionplots.xyz/techs/scatter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>seaborn</title>
-      <link>https://inspiring-kalam-8aa339.netlify.com/techs/seaborn/</link>
+      <link>https://electionplots.xyz/techs/seaborn/</link>
       <pubDate>Sun, 19 Jan 2020 17:21:39 +0000</pubDate>
       
-      <guid>https://inspiring-kalam-8aa339.netlify.com/techs/seaborn/</guid>
+      <guid>https://electionplots.xyz/techs/seaborn/</guid>
       <description></description>
     </item>
     

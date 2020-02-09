@@ -1,22 +1,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Election Plots</title>
-    <link>https://inspiring-kalam-8aa339.netlify.com/</link>
+    <link>https://electionplots.xyz/</link>
     <description>Recent content on Election Plots</description>
     <generator>Hugo - gohugo.io</generator>
     <language>en</language>
     <contact>electionplots@gmail.com</contact>
     <copyright></copyright>
     
-        <atom:link href="https://inspiring-kalam-8aa339.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://electionplots.xyz/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Codes</title>
-      <link>https://inspiring-kalam-8aa339.netlify.com/code/</link>
+      <link>https://electionplots.xyz/code/</link>
       <pubDate>Mon, 03 Feb 2020 14:24:10 +0000</pubDate>
       <author>Election Plots</author>
-      <guid>https://inspiring-kalam-8aa339.netlify.com/code/</guid>
+      <guid>https://electionplots.xyz/code/</guid>
       <description></description>
       
       <content></content>
@@ -25,10 +25,10 @@
     
     <item>
       <title>Graphs</title>
-      <link>https://inspiring-kalam-8aa339.netlify.com/graph/</link>
+      <link>https://electionplots.xyz/graph/</link>
       <pubDate>Mon, 03 Feb 2020 14:23:50 +0000</pubDate>
       <author>Election Plots</author>
-      <guid>https://inspiring-kalam-8aa339.netlify.com/graph/</guid>
+      <guid>https://electionplots.xyz/graph/</guid>
       <description></description>
       
       <content></content>
@@ -37,10 +37,10 @@
     
     <item>
       <title>Posts</title>
-      <link>https://inspiring-kalam-8aa339.netlify.com/post/</link>
+      <link>https://electionplots.xyz/post/</link>
       <pubDate>Mon, 03 Feb 2020 14:16:29 +0000</pubDate>
       <author>Election Plots</author>
-      <guid>https://inspiring-kalam-8aa339.netlify.com/post/</guid>
+      <guid>https://electionplots.xyz/post/</guid>
       <description></description>
       
       <content></content>
