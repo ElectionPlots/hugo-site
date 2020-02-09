@@ -16,7 +16,6 @@
 {{ end }}
 <link rel="stylesheet" href="{{ "css/style.css" | relURL }}"/>
 <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}"/>
-<link rel="stylesheet" href="{{ "css/syntax.css" | relURL }}"/>
 {{- range .Site.Params.Assets.customCSS -}}
 <link rel='stylesheet' href='{{ . | absURL }}'>
 {{- end -}}
