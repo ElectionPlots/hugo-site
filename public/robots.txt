@@ -1,3 +1,3 @@
 User-agent: *
 
-Sitemap: http://localhost/sitemap.xml
+Sitemap: https://inspiring-kalam-8aa339.netlify.com//sitemap.xml

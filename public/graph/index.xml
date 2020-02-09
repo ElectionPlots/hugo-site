@@ -2,84 +2,84 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Graphs on Election Plots</title>
-    <link>http://localhost/graph/</link>
+    <link>https://inspiring-kalam-8aa339.netlify.com/graph/</link>
     <description>Recent content in Graphs on Election Plots</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 03 Feb 2020 14:23:50 +0000</lastBuildDate>
     
-	<atom:link href="http://localhost/graph/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://inspiring-kalam-8aa339.netlify.com/graph/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Plotly_ge_meanage_eu_swing</title>
-      <link>http://localhost/graph/plotly_ge_meanage_eu_swing/</link>
+      <link>https://inspiring-kalam-8aa339.netlify.com/graph/plotly_ge_meanage_eu_swing/</link>
       <pubDate>Mon, 03 Feb 2020 14:23:50 +0000</pubDate>
       
-      <guid>http://localhost/graph/plotly_ge_meanage_eu_swing/</guid>
+      <guid>https://inspiring-kalam-8aa339.netlify.com/graph/plotly_ge_meanage_eu_swing/</guid>
       <description>window.PlotlyConfig = {MathJaxConfig: &#39;local&#39;}; window.PLOTLYENV=window.PLOTLYENV || {};if (document.getElementById(&#34;62177d07-c384-4485-89d2-d1e442fcb733&#34;)) {Plotly.newPlot(&#39;62177d07-c384-4485-89d2-d1e442fcb733&#39;,[{&#34;customdata&#34;: [[&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;</description>
     </item>
     
     <item>
       <title>Plotly_ge_meanage_eu_vs</title>
-      <link>http://localhost/graph/plotly_ge_meanage_eu_vs/</link>
+      <link>https://inspiring-kalam-8aa339.netlify.com/graph/plotly_ge_meanage_eu_vs/</link>
       <pubDate>Mon, 03 Feb 2020 14:23:41 +0000</pubDate>
       
-      <guid>http://localhost/graph/plotly_ge_meanage_eu_vs/</guid>
+      <guid>https://inspiring-kalam-8aa339.netlify.com/graph/plotly_ge_meanage_eu_vs/</guid>
       <description>window.PlotlyConfig = {MathJaxConfig: &#39;local&#39;}; window.PLOTLYENV=window.PLOTLYENV || {};if (document.getElementById(&#34;6c893342-f663-4f6e-94f6-08add4e896b2&#34;)) {Plotly.newPlot(&#39;6c893342-f663-4f6e-94f6-08add4e896b2&#39;,[{&#34;customdata&#34;: [[&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;SPE&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;</description>
     </item>
     
     <item>
       <title>Plotly_go_eu_swing_buttons</title>
-      <link>http://localhost/graph/plotly_go_eu_swing_buttons/</link>
+      <link>https://inspiring-kalam-8aa339.netlify.com/graph/plotly_go_eu_swing_buttons/</link>
       <pubDate>Mon, 03 Feb 2020 11:55:32 +0000</pubDate>
       
-      <guid>http://localhost/graph/plotly_go_eu_swing_buttons/</guid>
+      <guid>https://inspiring-kalam-8aa339.netlify.com/graph/plotly_go_eu_swing_buttons/</guid>
       <description>window.PlotlyConfig = {MathJaxConfig: &#39;local&#39;}; window.PLOTLYENV=window.PLOTLYENV || {};if (document.getElementById(&#34;aa219eb7-3a78-4b11-9b28-9bf62bea576b&#34;)) {Plotly.newPlot(&#39;aa219eb7-3a78-4b11-9b28-9bf62bea576b&#39;,[{&#34;customdata&#34;: [&#34;CON&#34;, &#34;CON&#34;, &#34;CON&#34;, &#34;CON&#34;, &#34;LAB&#34;, &#34;CON&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;CON&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;CON&#34;, &#34;CON&#34;, &#34;CON&#34;, &#34;CON&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;CON&#34;, &#34;LAB&#34;, &#34;CON&#34;, &#34;CON&#34;, &#34;CON&#34;, &#34;CON&#34;, &#34;LAB&#34;, &#34;CON&#34;, &#34;CON&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;CON&#34;, &#34;CON&#34;, &#34;CON&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;CON&#34;, &#34;CON&#34;, &#34;CON&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;CON&#34;, &#34;LAB&#34;, &#34;CON&#34;, &#34;CON&#34;, &#34;</description>
     </item>
     
     <item>
       <title>Plotly_go_meanage_eu_buttons</title>
-      <link>http://localhost/graph/plotly_go_meanage_eu_buttons/</link>
+      <link>https://inspiring-kalam-8aa339.netlify.com/graph/plotly_go_meanage_eu_buttons/</link>
       <pubDate>Mon, 03 Feb 2020 11:39:27 +0000</pubDate>
       
-      <guid>http://localhost/graph/plotly_go_meanage_eu_buttons/</guid>
+      <guid>https://inspiring-kalam-8aa339.netlify.com/graph/plotly_go_meanage_eu_buttons/</guid>
       <description>window.PlotlyConfig = {MathJaxConfig: &#39;local&#39;}; window.PLOTLYENV=window.PLOTLYENV || {};if (document.getElementById(&#34;0a6133cd-53ac-4291-b9b3-8727dc3b8ccd&#34;)) {Plotly.newPlot(&#39;0a6133cd-53ac-4291-b9b3-8727dc3b8ccd&#39;,[{&#34;customdata&#34;: [&#34;CON&#34;, &#34;CON&#34;, &#34;CON&#34;, &#34;CON&#34;, &#34;CON&#34;, &#34;LAB&#34;, &#34;CON&#34;, &#34;LAB&#34;, &#34;CON&#34;, &#34;CON&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;CON&#34;, &#34;CON&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;CON&#34;, &#34;CON&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;CON&#34;, &#34;LAB&#34;, &#34;CON&#34;, &#34;CON&#34;, &#34;CON&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;CON&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;CON&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;LAB&#34;, &#34;CON&#34;, &#34;LAB&#34;, &#34;</description>
     </item>
     
     <item>
       <title>Plotly_ge_eu_swing_trendline</title>
-      <link>http://localhost/graph/plotly_ge_eu_swing_trendline/</link>
+      <link>https://inspiring-kalam-8aa339.netlify.com/graph/plotly_ge_eu_swing_trendline/</link>
       <pubDate>Sun, 02 Feb 2020 23:17:02 +0000</pubDate>
       
-      <guid>http://localhost/graph/plotly_ge_eu_swing_trendline/</guid>
+      <guid>https://inspiring-kalam-8aa339.netlify.com/graph/plotly_ge_eu_swing_trendline/</guid>
       <description>window.PlotlyConfig = {MathJaxConfig: &#39;local&#39;}; window.PLOTLYENV=window.PLOTLYENV || {};if (document.getElementById(&#34;0d848ce5-d3e6-4422-af36-5360977069b9&#34;)) {Plotly.newPlot(&#39;0d848ce5-d3e6-4422-af36-5360977069b9&#39;,[{&#34;customdata&#34;: [[&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;</description>
     </item>
     
     <item>
       <title>Plotly_ge_meanage_vs_lc</title>
-      <link>http://localhost/graph/plotly_ge_meanage_vs_lc/</link>
+      <link>https://inspiring-kalam-8aa339.netlify.com/graph/plotly_ge_meanage_vs_lc/</link>
       <pubDate>Sun, 02 Feb 2020 14:28:41 +0000</pubDate>
       
-      <guid>http://localhost/graph/plotly_ge_meanage_vs_lc/</guid>
+      <guid>https://inspiring-kalam-8aa339.netlify.com/graph/plotly_ge_meanage_vs_lc/</guid>
       <description>window.PlotlyConfig = {MathJaxConfig: &#39;local&#39;}; window.PLOTLYENV=window.PLOTLYENV || {};if (document.getElementById(&#34;642de26e-5123-4f2f-9c7e-f96c74c5a548&#34;)) {Plotly.newPlot(&#39;642de26e-5123-4f2f-9c7e-f96c74c5a548&#39;,[{&#34;customdata&#34;: [[&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;SPE&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;</description>
     </item>
     
     <item>
       <title>Plotly_ge_meanage_eu_lc_arrows</title>
-      <link>http://localhost/graph/plotly_ge_meanage_eu_lc_arrows/</link>
+      <link>https://inspiring-kalam-8aa339.netlify.com/graph/plotly_ge_meanage_eu_lc_arrows/</link>
       <pubDate>Sat, 01 Feb 2020 22:11:04 +0000</pubDate>
       
-      <guid>http://localhost/graph/plotly_ge_meanage_eu_lc_arrows/</guid>
+      <guid>https://inspiring-kalam-8aa339.netlify.com/graph/plotly_ge_meanage_eu_lc_arrows/</guid>
       <description>window.PlotlyConfig = {MathJaxConfig: &#39;local&#39;}; window.PLOTLYENV=window.PLOTLYENV || {};if (document.getElementById(&#34;e5b55c88-645f-4eed-87e7-f019b9b76aa3&#34;)) {Plotly.newPlot(&#39;e5b55c88-645f-4eed-87e7-f019b9b76aa3&#39;,[{&#34;customdata&#34;: [[&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;SPE&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;</description>
     </item>
     
     <item>
       <title>plotly_ge_meanage_eu_lc</title>
-      <link>http://localhost/graph/plotly_ge_meanage_eu_lc/</link>
+      <link>https://inspiring-kalam-8aa339.netlify.com/graph/plotly_ge_meanage_eu_lc/</link>
       <pubDate>Sun, 19 Jan 2020 22:30:08 +0000</pubDate>
       
-      <guid>http://localhost/graph/plotly_ge_meanage_eu_lc/</guid>
+      <guid>https://inspiring-kalam-8aa339.netlify.com/graph/plotly_ge_meanage_eu_lc/</guid>
       <description>window.PlotlyConfig = {MathJaxConfig: &#39;local&#39;}; window.PLOTLYENV=window.PLOTLYENV || {};if (document.getElementById(&#34;7f72f415-d304-4d38-834f-22a0e4375962&#34;)) {Plotly.newPlot(&#39;7f72f415-d304-4d38-834f-22a0e4375962&#39;,[{&#34;customdata&#34;: [[&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;SPE&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;CON&#34;], [&#34;</description>
     </item>
     

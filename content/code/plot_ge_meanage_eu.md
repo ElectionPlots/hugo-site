@@ -1,7 +1,7 @@
 ---
 title: "plot_ge_meanage_eu_csv"
 date: 2020-01-26T11:30:44Z
-draft: true
+draft: false
 type: "code"
 hidden: true
 ---

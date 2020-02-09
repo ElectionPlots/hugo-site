@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = "https://inspiring-kalam-8aa339.netlify.com/"
 languageCode = "en"
 title = "Election Plots"
 theme = "kiss"
