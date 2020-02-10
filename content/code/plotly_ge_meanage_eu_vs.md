@@ -6,7 +6,6 @@ type: "code"
 hidden: true
 ---
 
-In code page markdown, put code between
 ```py3 {linenos=table}
 import pandas as pd
 import plotly.express as px

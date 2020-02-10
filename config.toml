@@ -25,7 +25,7 @@ enableSocial = true # Adds OpenGraph and Twitter cards
 homeTitle = "Election Plots" # Title for home page
 poweredby = false # Adds powered by hugo and kiss below Copyright
 related = true # Includes related articles at the bottom of the article
-codeCopy = true # Add copy button above code blocks
+codeCopy = false # Add copy button above code blocks
 
 [params.features]
 disqusOnDemand = true  # Load Disqus comments on click
@@ -34,7 +34,6 @@ disqusOnDemand = true  # Load Disqus comments on click
 
 [params.sections_right]
 "/post/welcome" = "About"
-
 
 [params.opengraph.facebook]
 admins = [] # array of Facebook IDs
@@ -48,18 +47,18 @@ page = "" # Twitter Page username. If not set, params.social.twitter will be use
 twitter = "ElectionPlots"
 github = "ElectionPlots/data"
 email = "electionplots@gmail.com"
-codepen = ""
+# codepen = ""
 # rss = "index.xml" # Add this to show RSS button in social.
 
 [params.social.config]
-platforms = ["github","twitter","email","codepen","linkedin","rss"]
+platforms = ["github","twitter","email","rss"]
 
 [params.matomoAnalytics]
 siteID = 1
-rootURL = "//matomo.example.com/"
+rootURL = "//matomo.electionplots.xyz/"
 
 [params.fathomAnalytics]
-rootURL = "//fathom.example.com/"
+rootURL = "//fathom.electionplots.xyz/"
 
 [taxonomies]
 tag ="tags"
