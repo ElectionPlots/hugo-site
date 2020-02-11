@@ -3,7 +3,7 @@ languageCode = "en"
 title = "Election Plots"
 theme = "kiss"
 disqusShortname = "election-plots"
-googleAnalytics = ""
+googleAnalytics = "UA-158234069-1"
 Paginate = 3 # Number of posts per page
 enableRobotsTXT = true
 
@@ -52,13 +52,6 @@ email = "electionplots@gmail.com"
 
 [params.social.config]
 platforms = ["github","twitter","email","rss"]
-
-[params.matomoAnalytics]
-siteID = 1
-rootURL = "//matomo.electionplots.xyz/"
-
-[params.fathomAnalytics]
-rootURL = "//fathom.electionplots.xyz/"
 
 [taxonomies]
 tag ="tags"
