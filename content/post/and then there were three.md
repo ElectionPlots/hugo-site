@@ -1,5 +1,5 @@
 ---
-title: "The Election in 3-D"
+title: "...And then there were three"
 date: 2020-02-03T14:16:29Z
 draft: false
 tags: ["UK", "GE", "2019", "age", "Brexit", "swing"]
